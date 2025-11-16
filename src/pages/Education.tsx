@@ -202,7 +202,7 @@ const Education = () => {
                           ))}
                         </div>
                       </div>
-                      
+
                       <div>
                         <h4 className="font-semibold text-foreground mb-2">Locations</h4>
                         <p className="text-sm text-muted-foreground">{hospital.locations.join(', ')}</p>

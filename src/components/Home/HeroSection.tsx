@@ -33,23 +33,17 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 text-center text-white relative z-10">
         <div className="max-w-4xl mx-auto">
           <h1 className="mt-4 text-3xl md:text-5xl font-bold mb-4 leading-snug">
-            Your Portugal Journey Starts Here
+            {t("hero.title")}
           </h1>
           <p className="text-lg md:text-x mb-6 text-gray-200 leading-relaxed max-w-3xl mx-auto">
-            TO ENSURE INDIVIDUALS AND FAMILIES START A NEW LIFE IN PORTUGAL —
-            SAFELY, LEGALLY, AND COMFORTABLY. WE SUPPORT OUR CLIENTS AT EVERY
-            STAGE, FROM VISA APPLICATION TO FULL SETTLEMENT, WITH A PERSONALIZED
-            APPROACH TAILORED TO EACH NEED.
+            {t('hero.subtitle')}
           </p>
           <div className="bg-white/10 backdrop-blur-md rounded-xl p-5 border border-white/20 mb-6 max-w-4xl mx-auto">
             <h3 className="text-lg font-semibold mb-3 text-portugal-gold">
-              Our Vision
+              {t('hero.ourvision')}
             </h3>
             <p className="text-gray-200 text-base">
-              TO BECOME THE MOST TRUSTED AND PROFESSIONAL PARTNER IN THE FIELD
-              OF RELOCATION AND IMMIGRATION ACROSS THE EUROPEAN UNION. WE DON’T
-              JUST HANDLE PAPERWORK — WE GUIDE PEOPLE THROUGH A MAJOR LIFE
-              TRANSITION.
+              {t('hero.vision')}
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
@@ -68,7 +62,7 @@ const HeroSection = () => {
               onClick={() => setShowRoadmapModal(true)}
             >
               <MapPin className="mr-2 w-4 h-4" />
-              {language === "az" ? "Müraciət Xəritəsi" : "Application Roadmap"}
+              {t('hero.approadmap')}
             </Button>
           </div>
 
