@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Shield, Heart, Globe, MapPin } from "lucide-react";
-import { useLanguage } from "@/hooks/useLanguage";
+import {useLanguage} from "@/hooks/useLanguage";
 import ApplicationRoadmapModal from "@/components/ApplicationRoadmapModal";
 import portugalVideo from "@/assets/portugal-video.mp4"; // <- Add your video here
 
@@ -71,24 +71,25 @@ const HeroSection = () => {
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-5 border border-white/20">
               <Shield className="w-6 h-6 text-portugal-gold mx-auto mb-2" />
               <h3 className="font-semibold text-base mb-1">
-                7th Safest Country
+                {t("fact.safety")}
               </h3>
-              <p className="text-sm text-gray-200">Global Peace Index 2024</p>
+              <p className="text-sm text-gray-200">{t("fact.desc1")}</p>
+
             </div>
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-5 border border-white/20">
               <Heart className="w-6 h-6 text-portugal-gold mx-auto mb-2" />
               <h3 className="font-semibold text-base mb-1">
-                3rd Safest in Europe
+                {t("fact.europe")}
               </h3>
-              <p className="text-sm text-gray-200">European Safety Rankings</p>
+              <p className="text-sm text-gray-200">{t("fact.desc2")}</p>
             </div>
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-5 border border-white/20">
               <Globe className="w-6 h-6 text-portugal-gold mx-auto mb-2" />
               <h3 className="font-semibold text-base mb-1">
-                Most Welcoming Society
+                {t("fact.welcoming")}
               </h3>
               <p className="text-sm text-gray-200">
-                European Social Survey 2022
+                {t("fact.desc3")}
               </p>
             </div>
           </div>

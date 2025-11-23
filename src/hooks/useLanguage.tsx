@@ -28,10 +28,12 @@ const translations = {
 
 
     // Facts
-    'facts.title': 'Portuqaliya Faktları',
-    'facts.safety': 'Dünyada 7-ci ən təhlükəsiz ölkə',
-    'facts.europe': 'Avropada 3-cü ən təhlükəsiz',
-    'facts.welcoming': 'İmmiqrantlar üçün ən qonaqpərvər cəmiyyətlərdən biri',
+    'fact.safety': 'Dünyada 7-ci ən təhlükəsiz ölkə',
+    "fact.desc1": "Qlobal Sülh İndeksi 2024",
+    "fact.desc2": "Avropa Təhlükəsizlik Reytinqi",
+    "fact.desc3": "Avropa Sosial Sorğusu 2022",
+    'fact.europe': 'Avropada 3-cü ən təhlükəsiz',
+    'fact.welcoming': 'Ən qonaqpərvər cəmiyyətlərdən biri',
 
     // Services
     'services.title': 'Xidmətlərimiz',
@@ -166,10 +168,12 @@ const translations = {
     'nav.education': 'Образование',
     'nav.contact': 'Контакты',
     // Facts
-    'facts.title': 'Факты о Португалии',
-    'facts.safety': '7-я самая безопасная страна в мире',
-    'facts.europe': '3-я самая безопасная в Европе',
-    'facts.welcoming': 'Одно из самых гостеприимных обществ для иммигрантов',
+    'fact.safety': '7-я самая безопасная страна в мире',
+    "fact.desc1": "Глобальный индекс мира 2024",
+    "fact.desc2": "Европейские рейтинги безопасности",
+    "fact.desc3": "Европейский социальный опрос 2022",
+    'fact.europe': '3-я самая безопасная в Европе',
+    'fact.welcoming': 'Одно из самых гостеприимных обществ',
 
     // Services
     'services.title': 'Наши Услуги',
@@ -308,10 +312,12 @@ const translations = {
     'nav.contact': 'Contato',
 
     // Facts
-    'facts.title': 'Fatos sobre Portugal',
-    'facts.safety': '7º país mais seguro do mundo',
-    'facts.europe': '3º mais seguro na Europa',
-    'facts.welcoming': 'Uma das sociedades mais acolhedoras para imigrantes',
+    'fact.safety': '7º país mais seguro do mundo',
+    "fact.desc1": "Índice Global da Paz 2024",
+    "fact.desc2": "Classificações de Segurança na Europa",
+    "fact.desc3": "Pesquisa Social Europeia 2022",
+    'fact.europe': '3º mais seguro na Europa',
+    'fact.welcoming': 'Uma das sociedades mais acolhedoras',
 
     // Services
     'services.title': 'Nossos Serviços',
@@ -433,12 +439,13 @@ const translations = {
     'gallery.community.desc': 'Cultura vibrante e comunidade calorosa',
   },
   en: {
-    'hero.title': 'A sua jornada para Portugal começa aqui',
-    'hero.subtitle': 'Assegurar que indivíduos e famílias iniciem uma nova vida em Portugal — de forma segura, legal e confortável. Apoiamos os nossos clientes em cada etapa, desde o pedido de visto até à instalação completa no país, com uma abordagem personalizada adaptada a cada necessidade.',
-    'hero.vision': "Tornar-se o parceiro mais confiável e profissional na área de realocação e imigração em toda a União Europeia. Não lidamos apenas com burocracia — guiamos as pessoas por uma grande transição em suas vidas.",
-    'hero.cta': 'plalas',
-    "hero.ourvision": "Nossa Visão",
-    "hero.approadmap": "xerite",
+    'hero.title': 'Your journey to Portugal begins here',
+    'hero.subtitle': 'Ensuring that individuals and families start a new life in Portugal — safely, legally, and comfortably. We support our clients at every step, from the visa application to complete settlement in the country, with a personalised approach tailored to each need.',
+    'hero.vision': "To become the most reliable and professional partner in the field of relocation and immigration across the European Union. We do not just handle bureaucracy — we guide people through a major transition in their lives.",
+    'hero.cta': 'Immigration strategy',
+    "hero.ourvision": "Our Vision",
+    "hero.approadmap": "Residence solutions – service descriptions",
+
     // Navigation
     'nav.home': 'Home',
     'nav.services': 'Services',
@@ -447,30 +454,101 @@ const translations = {
     'nav.education': 'Education',
     'nav.contact': 'Contact',
 
+
+    "fact.safety": '7th safest country in the world',
+    "fact.europe": '3rd safest in Europe',
+    "fact.desc1": "Global Peace Index 2024",
+    "fact.desc2": "European Safety Rankings",
+    "fact.desc3": "European Social Survey 2022",
+    "fact.welcoming": 'Most Welcoming Society',
     // Facts
-    'facts.title': 'Portugal Facts',
-    'facts.safety': '7th safest country in the world',
-    'facts.europe': '3rd safest in Europe',
-    'facts.welcoming': 'One of the most welcoming societies for immigrants',
 
     // Services
     'services.title': 'Our Services',
-    'services.subtitle': 'Complete service package to help you with your Portugal relocation process',
-
-    // Gallery
-    'gallery.title': 'Portugal Life',
+    'services.subtitle': 'A complete service package to help you with your relocation process to Portugal',
+    'service.education': "Educational guidance",
+    'service.medical': "Healthcare guidance",
+    'service.loan': "Facilitation of mortgages and loans",
+    'service.bankacc': "Opening of individual and corporate bank accounts",
+    'service.realestate': "Real estate consulting",
+    'service.investment': "Selected investment opportunities",
+    'service.structuring': "Corporate structuring and consultancy",
+    'service.legalconsular': "Support with legal and consular documentation",
+    'service.community': "Integration into the community and professional networks",
+    'service.tour': "Tour package",
 
     // Education
-    'education.title': 'Education in Portugal',
+    'education.title': 'Educational Guidance',
+    'education.subtitle': 'Portugal offers access to some of the most prestigious international schools in Europe, with pathways to EU universities, Ivy League universities in the USA, and top universities in the UK.',
+    'education.title2': 'Top International Schools:',
+    'education.school1name': "St. Julian’s School",
+    'education.school1desc': "One of the oldest British schools in Europe (founded in 1932), with alumni admitted to Oxford, LSE, and UCL.",
+    'education.school2name': "Carlucci American International School of Lisbon (CAISL)",
+    'education.school2desc': "Offers the IB (International Baccalaureate) and American curricula. Alumni have entered Harvard, MIT, and Columbia.",
+    'education.school3name': "Oporto British School",
+    'education.school3desc': "A high-level institution in northern Portugal accredited by the University of Cambridge.",
 
-    // Healthcare
-    'healthcare.title': 'Healthcare System',
+    // Universities
+    'uni.title': "Universities",
+    'uni.uni1name': "University of Lisbon",
+    'uni.uni1desc': "Ranked #262 in the QS World University Rankings 2025.",
+    'uni.uni2name': "NOVA University Lisbon",
+    'uni.uni2desc': "Included in the “QS Top 50 Under 50” list. Portugal is one of the most welcoming societies for immigrants, with low levels of racism and xenophobia compared to other EU countries. Source: European Social Survey, 2022",
+    'uni.uni3name': "Portuguese Catholic University",
+    'uni.uni3desc': "Recognised globally by the Financial Times for its business and law programs. Bachelor’s and Master’s degrees taught in English available in Medicine, Data Science, Engineering, and more.",
+
+    // Health
+    'health.title': "Healthcare Guidance",
+    'health.subtitle': "According to OECD statistics, Portugal has one of the best public healthcare systems in Europe — and its private network is even more advanced.",
+    'health.title2': "Top private hospital networks:",
+    'health.hosp1name': "Hospital da Luz",
+    'health.hosp1desc': "State-of-the-art facilities with international patient services.",
+    'health.hosp2name': "CUF Saúde",
+    'health.hosp2desc': "Over 20 private hospitals throughout the country with high patient satisfaction.",
+    'health.hosp3name': "Lusíadas Saúde",
+    'health.hosp3desc': "A JCI-accredited network meeting global healthcare standards.",
+
+    // Gallery
+    'gallery.title': 'Life in Portugal',
+
+    // Visa D7 Passive
+    "visa.d7": "D7 Visa (Passive Income)",
+    "visa.d7forwho1": "Individuals with passive income: rents, pensions, royalties, interest;",
+    "visa.d7forwho2": "Retirees, property owners, and investors.",
+    "visa.d7forwho3": "Does not require large investments;",
+    "visa.d7forwho4": "Grants full legal residency in Portugal;",
+    "visa.d7benefits1": "Free movement within the Schengen area;",
+    "visa.d7benefits2": "Eligibility for citizenship after 5 years;",
+    "visa.d7benefits3": "Includes spouse and dependent children.",
+
+    // Visa D7 Digital Nomad
+    "visa.d7dig": "D7 Visa (Digital Nomad Visa)",
+    "visa.d7digbenef1": "Freelancers and remote workers with valid contracts;",
+    "visa.d7digbenef2": "Digital nomads serving foreign clients;",
+    "visa.d7digbenef3": "Academics, creatives, and service providers.",
+    "visa.d7digbenef4": "Live in Portugal while working remotely;",
+    "visa.d7digbenef5": "Legal stay based on employment or service contract;",
+    "visa.d7digbenef6": "Pathway to Portuguese citizenship;",
+    "visa.d7digbenef7": "Family inclusion available;",
+    "visa.d7digbenef8": "Full relocation and integration support.",
+
+    // Golden Visa
+    "visa.goldenvisa": "Golden Visa",
+    "visa.goldenvisaforwho1": "Individuals seeking EU citizenship or permanent residency;",
+    "visa.goldenvisaforwho2": "Those who want flexible tax residency;",
+    "visa.goldenvisaforwho3": "Investors aiming to secure their family's future with a single application;",
+    "visa.goldenvisaforwho4": "Entrepreneurs and high-net-worth individuals seeking a legal “Plan B” in Europe.",
+    "visa.goldenvisabenefits1": "Only 7 days of stay per year in Portugal required;",
+    "visa.goldenvisabenefits2": "Tax residency is not mandatory;",
+    "visa.goldenvisabenefits3": "Citizenship eligibility after 5 years;",
+    "visa.goldenvisabenefits4": "One investment covers the whole family (e.g., €500,000 investment fund or €250,000 donation to public projects);",
+    "visa.goldenvisabenefits5": "Free movement in the Schengen zone and European mobility.",
 
     // Contact
-    'contact.title': 'Contact Us',
-    'contact.subtitle': 'Ready to start your Portugal journey',
+    'contact.title': 'Contact',
+    'contact.subtitle': 'We are ready to start your journey to Portugal',
     'contact.form.title': 'Send a Message',
-    'contact.form.send': 'Send Message',
+    'contact.form.send': 'Send',
     'contact.phone': 'Phone',
     'contact.office': 'Office',
 
@@ -479,9 +557,9 @@ const translations = {
     'page.visas.title': 'Visa Types',
     'page.investment.title': 'Investment Opportunities',
     'page.education.title': 'Education & Healthcare',
-    'page.contact.title': 'Get in Touch',
+    'page.contact.title': 'Contact Us',
 
-    // Contact
+    // Contact Form
     'contact.form.name': 'Full Name',
     'contact.form.email': 'Email',
     'contact.form.phone': 'Phone',
@@ -490,18 +568,18 @@ const translations = {
     'contact.info.title': 'Contact Information',
 
     // Gallery Stats
-    'stats.sunshine': 'Days of Sunshine',
+    'stats.sunshine': 'Sunny Days',
     'stats.temperature': 'Average Temperature',
     'stats.distance': 'Distance to Portugal',
     'stats.hours': 'hours of sunlight per day',
 
     // Gallery Images
     'gallery.lisbon': 'Historic Lisbon',
-    'gallery.lisbon.desc': 'Charming neighborhoods with traditional architecture',
+    'gallery.lisbon.desc': 'Charming neighbourhoods with traditional architecture',
     'gallery.coast': 'Atlantic Coast',
     'gallery.coast.desc': 'Beautiful beaches and coastal lifestyle',
-    'gallery.modern': 'Modern Living',
-    'gallery.modern.desc': 'Contemporary design meets traditional charm',
+    'gallery.modern': 'Modern Life',
+    'gallery.modern.desc': 'Modern design blending with traditional charm',
     'gallery.community': 'Community Life',
     'gallery.community.desc': 'Vibrant culture and warm community',
   }
