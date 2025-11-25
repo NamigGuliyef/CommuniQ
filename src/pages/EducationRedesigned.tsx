@@ -17,8 +17,6 @@ import {
   Award,
   ExternalLink,
   GraduationCap,
-  Heart,
-  MapPin,
   Star,
   Trophy,
   Users
@@ -27,13 +25,13 @@ import { useState } from 'react';
 
 const EducationRedesigned = () => {
   const { t } = useLanguage();
-  const [modalId, setModalId] = useState(null)
+  const [modalId, setModalId] = useState(null);
 
   const universities = [
     {
       name: 'University of Lisbon',
       shortName: 'ULisboa',
-      description: 'Portugal\'s largest university with over 47,000 students. Excellence in research and education since 1911.',
+      description: "Portugal's largest university with over 47,000 students. Excellence in research and education since 1911.",
       ranking: '#1 in Portugal',
       icon: GraduationCap,
       image: universityLisbon,
@@ -113,14 +111,17 @@ const EducationRedesigned = () => {
                 <div className="text-3xl md:text-4xl font-bold text-primary mb-2">20+</div>
                 <div className="text-sm text-muted-foreground">Universities</div>
               </div>
+
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-primary mb-2">300k+</div>
                 <div className="text-sm text-muted-foreground">Students</div>
               </div>
+
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-primary mb-2">95%</div>
                 <div className="text-sm text-muted-foreground">Employment Rate</div>
               </div>
+
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-primary mb-2">#3</div>
                 <div className="text-sm text-muted-foreground">EU Healthcare</div>
@@ -144,6 +145,7 @@ const EducationRedesigned = () => {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {universities.map((university, index) => {
                 const IconComponent = university.icon;
+
                 return (
                   <Card
                     key={index}
@@ -156,11 +158,13 @@ const EducationRedesigned = () => {
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+
                       <div className="absolute top-4 right-4">
                         <Badge className={`bg-gradient-to-r ${university.color} text-white border-0`}>
                           {university.ranking}
                         </Badge>
                       </div>
+
                       <div className="absolute bottom-4 left-4 text-white">
                         <div className="font-bold text-lg">{university.shortName}</div>
                         <div className="text-sm opacity-90">Est. {university.founded}</div>
@@ -172,10 +176,12 @@ const EducationRedesigned = () => {
                         <div className={`w-12 h-12 bg-gradient-to-br ${university.color} rounded-xl flex items-center justify-center shadow-lg`}>
                           <IconComponent className="w-6 h-6 text-white" />
                         </div>
+
                         <div className="flex-1">
                           <CardTitle className="text-xl group-hover:text-primary transition-colors duration-300">
                             {university.name}
                           </CardTitle>
+
                           <div className="flex items-center gap-2 mt-2">
                             <Users className="w-4 h-4 text-muted-foreground" />
                             <span className="text-sm text-muted-foreground">{university.students} students</span>
@@ -191,6 +197,7 @@ const EducationRedesigned = () => {
 
                       <div>
                         <div className="text-sm font-semibold text-foreground mb-2">Top Specialties</div>
+
                         <div className="flex flex-wrap gap-2">
                           {university.specialties.map((specialty, idx) => (
                             <Badge key={idx} variant="secondary" className="text-xs">
@@ -202,7 +209,9 @@ const EducationRedesigned = () => {
 
                       <Button
                         onClick={() => setModalId(index)}
-                        variant="outline" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+                        variant="outline"
+                        className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
+                      >
                         <ExternalLink className="w-4 h-4 mr-2" />
                         Learn More
                       </Button>
@@ -213,27 +222,33 @@ const EducationRedesigned = () => {
             </div>
           </div>
         </section>
-<<<<<<< HEAD
-        <EducationModal isOpen={modalId} onClose={() => setModalId(null)} />
-=======
->>>>>>> 2ca42ba8c3d2c35cfe74a8c949f7211cc0fcc201
+
+        {/* FIXED MODAL SECTION */}
+        <EducationModal
+          isOpen={modalId !== null}
+          onClose={() => setModalId(null)}
+          university={modalId !== null ? universities[modalId] : null}
+        />
 
         {/* CTA Section */}
         <section className="py-20">
           <div className="container mx-auto px-4">
             <div className="bg-gradient-to-r from-primary to-primary/80 rounded-3xl p-12 text-center text-primary-foreground">
               <Trophy className="w-16 h-16 mx-auto mb-6 text-portugal-gold" />
+
               <h3 className="text-3xl md:text-4xl font-bold mb-4">
                 Ready to Start Your Education Journey in Portugal?
               </h3>
+
               <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
                 Get personalized guidance for university applications, school enrollment, and healthcare registration
               </p>
+
               <Button
                 size="lg"
                 variant="secondary"
                 className="bg-portugal-gold hover:bg-portugal-gold/90 text-portugal-gold-foreground font-semibold px-8 py-6"
-                onClick={() => window.location.href = '/contact'}
+                onClick={() => (window.location.href = '/contact')}
               >
                 Get Started Today
                 <ArrowRight className="ml-2 w-5 h-5" />
