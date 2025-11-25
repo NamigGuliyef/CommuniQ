@@ -287,6 +287,7 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
   const services = [
     {
       icon: GraduationCap,
+<<<<<<< HEAD
       title: t("service.education"),
       description: t("education.subtitle"),
     },
@@ -340,6 +341,56 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
       description:
         "3-5 day tour, property viewings, school/clinic visits, meetings",
     },
+=======
+      title: 'Educational Orientation',
+      description: 'Access to top international schools like St. Julian\'s, CAISL, and Oporto British School. University partnerships with Lisbon, NOVA, and Catholic University. 100% English instruction with 90%+ university placement rates.'
+    },
+    {
+      icon: Heart,
+      title: 'Healthcare Orientation',
+      description: 'Premium private networks: Hospital da Luz, CUF Saúde, Lusíadas Saúde. JCI-accredited facilities with English-speaking doctors, advanced diagnostics, and priority access for expats.'
+    },
+    {
+      icon: CreditCard,
+      title: 'Mortgage & Loan Facilitation',
+      description: 'Finance up to 70% of property value with 2.5-4.5% interest rates. Business loans for startups and expansions. Full legal structuring and bank presentation support.'
+    },
+    {
+      icon: Building,
+      title: 'Individual & Corporate Banking Setup',
+      description: 'Fast-track account opening with Millennium BCP, Novo Banco, Santander. Pre-arranged English-speaking relationship managers. Accounts ready in 5-7 business days.'
+    },
+    {
+      icon: Home,
+      title: 'Real Estate Guidance',
+      description: 'Golden Visa compliant properties across Lisbon, Porto, Algarve, Cascais. Off-market deals, developer inventory, rental yield assessment. Full lifecycle support from search to registration.'
+    },
+    {
+      icon: TrendingUp,
+      title: 'Curated Investment Opportunities',
+      description: 'Government-approved CMVM-regulated funds. Diversified portfolios in tech, real estate, energy. Passive income potential with early return distributions available.'
+    },
+    {
+      icon: Scale,
+      title: 'Corporate Structuring and Advisory',
+      description: 'Company registration (LDA, SA, branch office). Tax optimization strategies. Full NIF, VAT, social security setup. Golden Visa eligible business structures.'
+    },
+    {
+      icon: FileText,
+      title: 'Legal & Consular Documentation Support',
+      description: 'Complete visa and residency document preparation. Certified translations, apostilles, embassy coordination. Full AIMA representation and consulate appointment scheduling.'
+    },
+    {
+      icon: Users,
+      title: 'Community and Professional Network Integration',
+      description: 'Introductions to expat circles, business associations, and industry events. Access to English-speaking professionals and family support groups. Local life guidance for faster adaptation.'
+    },
+    {
+      icon: MapPin,
+      title: 'Tour Package',
+      description: '3-5 day guided tours across Lisbon, Cascais, Porto, Algarve. Property visits, school tours, bank appointments, and expat meetings. Airport pickup and private driver included.'
+    }
+>>>>>>> 2ca42ba8c3d2c35cfe74a8c949f7211cc0fcc201
   ];
 
   return (

@@ -213,7 +213,10 @@ const EducationRedesigned = () => {
             </div>
           </div>
         </section>
+<<<<<<< HEAD
         <EducationModal isOpen={modalId} onClose={() => setModalId(null)} />
+=======
+>>>>>>> 2ca42ba8c3d2c35cfe74a8c949f7211cc0fcc201
 
         {/* CTA Section */}
         <section className="py-20">
