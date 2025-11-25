@@ -4,6 +4,7 @@ import hospitalLuz from '@/assets/hospital-luz.jpg';
 import universityLisbon from '@/assets/university-lisbon.jpg';
 import universityNova from '@/assets/university-nova.jpg';
 import universityPorto from '@/assets/university-porto.jpg';
+import EducationModal from '@/components/EducationModal';
 import Footer from '@/components/Layout/Footer';
 import Header from '@/components/Layout/Header';
 import SectionBanner from '@/components/SectionBanner';
@@ -22,9 +23,11 @@ import {
   Trophy,
   Users
 } from 'lucide-react';
+import { useState } from 'react';
 
 const EducationRedesigned = () => {
   const { t } = useLanguage();
+  const [modalId, setModalId] = useState(null)
 
   const universities = [
     {
@@ -197,7 +200,9 @@ const EducationRedesigned = () => {
                         </div>
                       </div>
 
-                      <Button variant="outline" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+                      <Button
+                        onClick={() => setModalId(index)}
+                        variant="outline" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
                         <ExternalLink className="w-4 h-4 mr-2" />
                         Learn More
                       </Button>
@@ -208,70 +213,7 @@ const EducationRedesigned = () => {
             </div>
           </div>
         </section>
-
-        {/* Healthcare Section */}
-        <section className="py-20 bg-muted/30">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-                Healthcare Excellence
-              </h2>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Portugal's healthcare system ranks among the best in Europe with modern facilities and skilled professionals
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {hospitals.map((hospital, index) => (
-                <Card
-                  key={index}
-                  className="group hover:shadow-xl transition-all duration-300 overflow-hidden"
-                >
-                  <div className="relative h-48 overflow-hidden">
-                    <img
-                      src={hospital.image}
-                      alt={hospital.name}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                    <div className={`absolute inset-0 bg-gradient-to-t ${hospital.color} opacity-20 group-hover:opacity-30 transition-opacity`}></div>
-                  </div>
-
-                  <CardHeader>
-                    <div className="flex items-center gap-3">
-                      <div className={`w-10 h-10 bg-gradient-to-br ${hospital.color} rounded-lg flex items-center justify-center`}>
-                        <Heart className="w-5 h-5 text-white" />
-                      </div>
-                      <div>
-                        <CardTitle className="text-lg">{hospital.name}</CardTitle>
-                        <div className="flex items-center gap-1 text-sm text-muted-foreground">
-                          <MapPin className="w-3 h-3" />
-                          {hospital.locations}
-                        </div>
-                      </div>
-                    </div>
-                  </CardHeader>
-
-                  <CardContent>
-                    <CardDescription className="mb-4">
-                      {hospital.description}
-                    </CardDescription>
-
-                    <div className="space-y-2">
-                      <div className="text-sm font-semibold">Specialties</div>
-                      <div className="flex flex-wrap gap-1">
-                        {hospital.specialties.map((specialty, idx) => (
-                          <Badge key={idx} variant="outline" className="text-xs">
-                            {specialty}
-                          </Badge>
-                        ))}
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </section>
+        <EducationModal isOpen={modalId} onClose={() => setModalId(null)} />
 
         {/* CTA Section */}
         <section className="py-20">

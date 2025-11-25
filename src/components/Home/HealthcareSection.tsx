@@ -13,47 +13,47 @@ const HealthcareSection = () => {
 
   const hospitals = [
     {
-      name: 'Hospital da Luz',
-      description: 'Cutting-edge facilities and international patient care. Leading private network with advanced diagnostics and priority access for expats.',
+      name: t('health.hosp1name'),
+      description: t('health.hosp1desc'),
       specialty: 'Premium International Care',
       icon: Heart,
       image: hospitalLuz
     },
     {
-      name: 'CUF Saúde',
-      description: 'Over 20 private hospitals across Portugal with high patient satisfaction. English-speaking doctors and integrated relocation support.',
+      name: t('health.hosp2name'),
+      description: t('health.hosp2desc'),
       specialty: 'Nationwide Network',
       icon: Shield,
       image: hospitalCuf
     },
     {
-      name: 'Lusíadas Saúde',
-      description: 'JCI-accredited network with global care standards. Family-focused insurance packages with international coverage.',
+      name: t('health.hosp3name'),
+      description: t('health.hosp3desc'),
       specialty: 'JCI-Accredited Excellence',
       icon: Star,
       image: hospitalLusiadas
     },
-    {
-      name: 'Hospital de São João',
-      description: 'Major public hospital in Porto with excellent medical education and research programs. Part of Portugal\'s top 10 European healthcare system.',
-      specialty: 'Research Excellence',
-      icon: Award,
-      image: hospitalSaoJoao
-    },
-    {
-      name: 'Hospital Santa Maria',
-      description: 'Portugal\'s largest hospital with comprehensive medical services and specialist care. No waiting lists for key specialties.',
-      specialty: 'Comprehensive Care',
-      icon: Heart,
-      image: hospitalSantaMaria
-    },
-    {
-      name: 'IPO Porto',
-      description: 'Specialized oncology institute providing world-class cancer treatment and research. Advanced diagnostic capabilities.',
-      specialty: 'Oncology Center',
-      icon: Shield,
-      image: hospitalIpo
-    }
+    // {
+    //   name: 'Hospital de São João',
+    //   description: 'Major public hospital in Porto with excellent medical education and research programs. Part of Portugal\'s top 10 European healthcare system.',
+    //   specialty: 'Research Excellence',
+    //   icon: Award,
+    //   image: hospitalSaoJoao
+    // },
+    // {
+    //   name: 'Hospital Santa Maria',
+    //   description: 'Portugal\'s largest hospital with comprehensive medical services and specialist care. No waiting lists for key specialties.',
+    //   specialty: 'Comprehensive Care',
+    //   icon: Heart,
+    //   image: hospitalSantaMaria
+    // },
+    // {
+    //   name: 'IPO Porto',
+    //   description: 'Specialized oncology institute providing world-class cancer treatment and research. Advanced diagnostic capabilities.',
+    //   specialty: 'Oncology Center',
+    //   icon: Shield,
+    //   image: hospitalIpo
+    // }
   ];
 
   return (
@@ -61,10 +61,10 @@ const HealthcareSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            {t('healthcare.title')}
+            {t('health.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Portugal ranks among top 10 in Europe for healthcare (OECD). Leading private networks with English-speaking doctors, advanced diagnostics, and priority access for expats — no waiting lists for key specialties.
+            {t('health.subtitle')}
           </p>
         </div>
 
@@ -74,8 +74,8 @@ const HealthcareSection = () => {
             return (
               <Card key={index} className="hover:shadow-xl hover:scale-105 transition-all duration-300 overflow-hidden group border-0 bg-gradient-to-br from-card via-card to-card/90 shadow-lg">
                 <div className="h-48 relative overflow-hidden">
-                  <img 
-                    src={hospital.image} 
+                  <img
+                    src={hospital.image}
                     alt={hospital.name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />

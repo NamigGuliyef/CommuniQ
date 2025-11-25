@@ -8,8 +8,8 @@ const GoogleMaps = () => {
     {
       name: 'CommuniQ Baku Office',
       address: 'Nizami Street 203, Baku, Azerbaijan',
-      coordinates: '40.3777,49.8920',
-      embedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.175234675997!2d49.8920!3d40.3777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDIyJzM5LjciTiA0OcKwNTMnMzEuMiJF!5e0!3m2!1sen!2s!4v1635789876543!5m2!1sen!2s'
+      coordinates: "40.4167399045736,49.96008263956357",
+      embedUrl: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d16572.678835046096!2d49.96008263956357!3d40.4167399045736!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x403063002cba98d9:0x5e052f5a3eb634c6!2sMcDonald's (McCafe/McAuto)!5e1!3m2!1str!2saz!4v1763998643845!5m2!1str!2saz"
     }
   ];
 
@@ -23,7 +23,7 @@ const GoogleMaps = () => {
         <h3 className="text-2xl font-bold text-foreground mb-2">Our Office Location</h3>
         <p className="text-muted-foreground">Visit us or schedule a consultation</p>
       </div>
-      
+
       {offices.map((office, index) => (
         <Card key={index} className="overflow-hidden">
           <CardHeader className="pb-3">
@@ -33,7 +33,7 @@ const GoogleMaps = () => {
             </CardTitle>
             <p className="text-sm text-muted-foreground">{office.address}</p>
           </CardHeader>
-          
+
           <CardContent className="space-y-4">
             <div className="aspect-video w-full rounded-lg overflow-hidden">
               <iframe
@@ -47,8 +47,8 @@ const GoogleMaps = () => {
                 title={`Map of ${office.name}`}
               />
             </div>
-            
-            <Button 
+
+            <Button
               onClick={() => openInMaps(office.coordinates)}
               className="w-full"
               variant="outline"

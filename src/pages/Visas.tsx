@@ -11,68 +11,75 @@ const Visas = () => {
 
   const visaTypes = [
     {
-      icon: DollarSign,
-      title: 'D7 Visa (Passive Income)',
-      subtitle: 'For individuals with passive income: rent, pension, royalties, interest',
+      icon: Star,
+      title: t('visa.d7'),
+      // subtitle: 'For investors seeking EU citizenship or permanent residency',
       features: [
-        'No large investment required',
-        'Full legal residency in Portugal',
-        'Schengen access',
-        'Citizenship after 5 years',
-        'Includes spouse and dependent children',
-        'Retirees, property owners, investors'
+        t("visa.d7forwho1"),
+        t("visa.d7forwho2"),
+        t("visa.d7forwho3"),
+        t("visa.d7forwho4"),
+        t("visa.d7benefits1"),
+        t("visa.d7benefits2"),
+        t("visa.d7benefits3"),
       ],
-      process: [
-        'Income documentation',
-        'Criminal background check',
-        'Health insurance',
-        'Accommodation proof',
-        'Application submission'
-      ],
-      color: 'from-green-500 to-emerald-600'
+      // process: [
+      //   'Investment selection',
+      //   'Fund/donation transfer',
+      //   'Document preparation',
+      //   'Application submission',
+      //   'Residence card issuance'
+      // ],
+      color: 'from-yellow-500 to-orange-600'
     },
+
     {
       icon: Laptop,
-      title: 'D7 Visa (Digital Nomad)',
-      subtitle: 'For freelancers and remote workers with valid contracts',
+      title: t('visa.d7dig'),
+      // subtitle: 'For freelancers and remote workers with valid contracts',
       features: [
-        'Live in Portugal while working remotely',
-        'Legal stay based on service agreement',
-        'Path to citizenship',
-        'Includes family',
-        'Full relocation support',
-        'Academics, creatives, service providers'
+        t("visa.d7digbenef1"),
+        t("visa.d7digbenef2"),
+        t("visa.d7digbenef3"),
+        t("visa.d7digbenef4"),
+        t("visa.d7digbenef5"),
+        t("visa.d7digbenef6"),
+        t("visa.d7digbenef7"),
+        t("visa.d7digbenef8"),
       ],
-      process: [
-        'Remote work proof',
-        'Valid contracts with foreign clients',
-        'Income verification',
-        'Health insurance',
-        'Application and approval'
-      ],
+      // process: [
+      //   'Remote work proof',
+      //   'Valid contracts with foreign clients',
+      //   'Income verification',
+      //   'Health insurance',
+      //   'Application and approval'
+      // ],
       color: 'from-blue-500 to-purple-600'
     },
     {
-      icon: Star,
-      title: 'Golden Visa',
-      subtitle: 'For investors seeking EU citizenship or permanent residency',
+      icon: DollarSign,
+      title: t('visa.goldenvisa'),
+      // subtitle: 'For individuals with passive income: rent, pension, royalties, interest',
       features: [
-        'Only 7 days/year of presence in Portugal required',
-        'No tax residency obligation',
-        'Apply for citizenship after 5 years',
-        'One investment covers the entire family',
-        '€500k in investment funds or €250k donation',
-        'Full Schengen access and freedom of movement'
+        t("visa.goldenvisaforwho1"),
+        t("visa.goldenvisaforwho2"),
+        t("visa.goldenvisaforwho3"),
+        t("visa.goldenvisaforwho4"),
+        t("visa.goldenvisabenefits1"),
+        t("visa.goldenvisabenefits2"),
+        t("visa.goldenvisabenefits3"),
+        t("visa.goldenvisabenefits4"),
+        t("visa.goldenvisabenefits5"),
       ],
-      process: [
-        'Investment selection',
-        'Fund/donation transfer',
-        'Document preparation',
-        'Application submission',
-        'Residence card issuance'
-      ],
-      color: 'from-yellow-500 to-orange-600'
-    }
+      // process: [
+      //   'Income documentation',
+      //   'Criminal background check',
+      //   'Health insurance',
+      //   'Accommodation proof',
+      //   'Application submission'
+      // ],
+      color: 'from-green-500 to-emerald-600'
+    },
   ];
 
   return (
@@ -99,7 +106,7 @@ const Visas = () => {
                         <IconComponent className="w-6 h-6 text-white" />
                       </div>
                       <CardTitle className="text-xl text-foreground">{visa.title}</CardTitle>
-                      <CardDescription className="text-muted-foreground">{visa.subtitle}</CardDescription>
+                      {/* <CardDescription className="text-muted-foreground">{visa.subtitle}</CardDescription> */}
                     </CardHeader>
                     <CardContent className="space-y-6">
                       <div>
@@ -114,7 +121,7 @@ const Visas = () => {
                         </div>
                       </div>
 
-                      <div>
+                      {/* <div>
                         <h4 className="font-semibold text-foreground mb-3">Process Steps</h4>
                         <div className="space-y-2">
                           {visa.process.map((step, i) => (
@@ -123,7 +130,7 @@ const Visas = () => {
                             </Badge>
                           ))}
                         </div>
-                      </div>
+                      </div> */}
                     </CardContent>
                   </Card>
                 );
