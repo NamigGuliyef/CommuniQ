@@ -71,44 +71,25 @@ const HeroSection = () => {
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-5 border border-white/20">
               <Shield className="w-6 h-6 text-portugal-gold mx-auto mb-2" />
               <h3 className="font-semibold text-base mb-1">
-<<<<<<< HEAD
-                {t('facts.safety')}
-              </h3>
-              <p className="text-sm text-gray-200"> {t('facts.safety.desc')}</p>
-=======
                 {t("fact.safety")}
               </h3>
               <p className="text-sm text-gray-200">{t("fact.desc1")}</p>
-
->>>>>>> 2ca42ba8c3d2c35cfe74a8c949f7211cc0fcc201
             </div>
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-5 border border-white/20">
               <Heart className="w-6 h-6 text-portugal-gold mx-auto mb-2" />
               <h3 className="font-semibold text-base mb-1">
-<<<<<<< HEAD
-                {t('facts.europe')}
-              </h3>
-              <p className="text-sm text-gray-200"> {t('facts.europe.desc')}</p>
-=======
                 {t("fact.europe")}
               </h3>
               <p className="text-sm text-gray-200">{t("fact.desc2")}</p>
->>>>>>> 2ca42ba8c3d2c35cfe74a8c949f7211cc0fcc201
+
             </div>
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-5 border border-white/20">
               <Globe className="w-6 h-6 text-portugal-gold mx-auto mb-2" />
               <h3 className="font-semibold text-base mb-1">
-<<<<<<< HEAD
-                {t('facts.welcoming')}
-              </h3>
-              <p className="text-sm text-gray-200">
-                {t('facts.welcoming.desc')}
-=======
                 {t("fact.welcoming")}
               </h3>
               <p className="text-sm text-gray-200">
                 {t("fact.desc3")}
->>>>>>> 2ca42ba8c3d2c35cfe74a8c949f7211cc0fcc201
               </p>
             </div>
           </div>

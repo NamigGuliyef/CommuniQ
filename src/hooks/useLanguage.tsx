@@ -11,24 +11,16 @@ interface LanguageContextType {
 const translations = {
   az: {
     // Hero Section
-<<<<<<< HEAD
-    "hero.title": "Portuqaliyaya səyahətiniz burada başlayır ",
-    "hero.subtitle":
-      "Fərdlərin və ailələrin Portuqaliyada yeni həyata təhlükəsiz, qanuni və rahat şəkildə başlamalarını təmin etməkdir. Biz müştərilərimizi viza müraciətindən tutmuş tam məskunlaşmaya qədər hər mərhələdə, hər bir ehtiyaca uyğun fərdi yanaşma ilə dəstəkləyirik.",
-    "hero.vision":
-      "Avropa İttifaqında relokasiya və immiqrasiya sahəsində ən etibarlı və peşəkar tərəfdaş olmaqdır. Biz sadəcə sənədləşmə işlərini yerinə yetirmirik — insanlara həyatlarında böyük bir keçid dövründə yol göstəririk.",
-    "hero.cta": "İmmiqrasiya strategiyası",
-=======
+
     'hero.title': 'Portuqaliyaya səyahətiniz burada başlayır ',
     'hero.subtitle': 'Fərdlərin və ailələrin Portuqaliyada yeni həyata təhlükəsiz, qanuni və rahat şəkildə başlamalarını təmin etməkdir. Biz müştərilərimizi viza müraciətindən tutmuş tam məskunlaşmaya qədər hər mərhələdə, hər bir ehtiyaca uyğun fərdi yanaşma ilə dəstəkləyirik.',
     'hero.vision': "Avropa İttifaqında relokasiya və immiqrasiya sahəsində ən etibarlı və peşəkar tərəfdaş olmaqdır. Biz sadəcə sənədləşmə işlərini yerinə yetirmirik — insanlara həyatlarında böyük bir keçid dövründə yol göstəririk.",
     'hero.cta': 'İmmiqrasiya strategiyası',
->>>>>>> 2ca42ba8c3d2c35cfe74a8c949f7211cc0fcc201
     "hero.ourvision": "Vizyonumuz",
     "hero.approadmap": "Yaşayış üçün həllər – xidmətlərin təsviri",
 
     // Navigation
-<<<<<<< HEAD
+
     "nav.home": "Ana Səhifə",
     "nav.services": "Xidmətlər",
     "nav.visas": "Vizalar",
@@ -138,7 +130,7 @@ const translations = {
     "visa.d7": "D7 Viza (Passiv Gəlir Vizası)",
     "visa.d7forwho1":
       "Passiv gəlirə sahib şəxslər: icarə, pensiya, royalti, faiz gəlirləri;",
-=======
+
     'nav.home': 'Ana Səhifə',
     'nav.services': 'Xidmətlər',
     'nav.visas': 'Vizalar',
@@ -202,13 +194,12 @@ const translations = {
 
     "visa.d7": "D7 Viza (Passiv Gəlir Vizası)",
     "visa.d7forwho1": "Passiv gəlirə sahib şəxslər: icarə, pensiya, royalti, faiz gəlirləri;",
->>>>>>> 2ca42ba8c3d2c35cfe74a8c949f7211cc0fcc201
     "visa.d7forwho2": "Təqaüdçülər, daşınmaz əmlak sahibləri və investorlar.",
     "visa.d7forwho3": "Böyük məbləğdə investisiya tələb etmir;",
     "visa.d7forwho4": "Portuqaliyada tam hüquqi yaşayış icazəsi verir;",
     "visa.d7benefits1": "Şengen zonasında sərbəst hərəkət imkanı;",
     "visa.d7benefits2": "5 ildən sonra vətəndaşlıq hüququ;",
-<<<<<<< HEAD
+
     "visa.d7benefits3":
       "Həyat yoldaşı və asılı uşaqları da viza proqramına daxildir.",
 
@@ -275,7 +266,7 @@ const translations = {
     "stats.temperature": "Orta Temperatur",
     "stats.distance": "Portugaliyadakı Məsafə",
     "stats.hours": "gündə günəş işığı saatı",
-=======
+
     "visa.d7benefits3": "Həyat yoldaşı və asılı uşaqları da viza proqramına daxildir.",
 
     "visa.d7dig": "D7 Viza (Rəqəmsal Köçəri Vizası)",
@@ -330,7 +321,7 @@ const translations = {
     'stats.temperature': 'Orta Temperatur',
     'stats.distance': 'Portugaliyadakı Məsafə',
     'stats.hours': 'gündə günəş işığı saatı',
->>>>>>> 2ca42ba8c3d2c35cfe74a8c949f7211cc0fcc201
+
 
     // Gallery Images
     "gallery.lisbon": "Tarixi Lissabon",
@@ -343,24 +334,15 @@ const translations = {
     "gallery.community.desc": "Canlı mədəniyyət və isti cəmiyyət",
   },
   ru: {
-<<<<<<< HEAD
-    "hero.title": "Ваше путешествие в Португалию начинается здесь",
-    "hero.subtitle":
-      "Обеспечить, чтобы люди и семьи начали новую жизнь в Португалии — безопасно, законно и комфортно. Мы сопровождаем наших клиентов на каждом этапе — от подачи заявления на визу до полной адаптации — с индивидуальным подходом, учитывающим каждую потребность.",
-    "hero.vision":
-      "Стать самым надёжным и профессиональным партнёром в сфере релокации и иммиграции во всём Европейском союзе. Мы не просто занимаемся оформлением документов — мы помогаем людям пройти через серьёзные жизненные перемены.",
-    "hero.cta": "Иммиграционная стратегия",
-=======
     'hero.title': 'Ваше путешествие в Португалию начинается здесь',
     'hero.subtitle': 'Обеспечить, чтобы люди и семьи начали новую жизнь в Португалии — безопасно, законно и комфортно. Мы сопровождаем наших клиентов на каждом этапе — от подачи заявления на визу до полной адаптации — с индивидуальным подходом, учитывающим каждую потребность.',
     'hero.vision': "Стать самым надёжным и профессиональным партнёром в сфере релокации и иммиграции во всём Европейском союзе. Мы не просто занимаемся оформлением документов — мы помогаем людям пройти через серьёзные жизненные перемены.",
     'hero.cta': 'Иммиграционная стратегия',
->>>>>>> 2ca42ba8c3d2c35cfe74a8c949f7211cc0fcc201
     "hero.ourvision": "Наше видение",
     "hero.approadmap": "Решения для проживания – описание услуг",
 
     // Navigation
-<<<<<<< HEAD
+
     "nav.home": "Главная",
     "nav.services": "Услуги",
     "nav.visas": "Визы",
@@ -434,7 +416,7 @@ const translations = {
     "visa.d7": "Виза D7 (Пассивный Доход)",
     "visa.d7forwho1":
       "Лица, имеющие пассивный доход: аренда, пенсия, роялти, проценты;",
-=======
+
     'nav.home': 'Главная',
     'nav.services': 'Услуги',
     'nav.visas': 'Визы',
@@ -496,7 +478,7 @@ const translations = {
 
     "visa.d7": "Виза D7 (Пассивный Доход)",
     "visa.d7forwho1": "Лица, имеющие пассивный доход: аренда, пенсия, роялти, проценты;",
->>>>>>> 2ca42ba8c3d2c35cfe74a8c949f7211cc0fcc201
+
     "visa.d7forwho2": "Пенсионеры, владельцы недвижимости, инвесторы.",
     "visa.d7forwho3": "Не требует крупных инвестиций;",
     "visa.d7forwho4": "Полноценный законный вид на жительство в Португалии;",
@@ -505,7 +487,7 @@ const translations = {
     "visa.d7benefits3": "Включает супруга и несовершеннолетних детей.",
 
     "visa.d7dig": "Виза D7 (Виза Цифрового Кочевника)",
-<<<<<<< HEAD
+
     "visa.d7digbenef1":
       "Фрилансеры и удалённые сотрудники с действующими контрактами;",
     "visa.d7digbenef2":
@@ -514,19 +496,19 @@ const translations = {
     "visa.d7digbenef4": "Возможность жить в Португалии, работая дистанционно;",
     "visa.d7digbenef5":
       "Законное пребывание на основании трудового или сервисного договора;",
-=======
+
     "visa.d7digbenef1": "Фрилансеры и удалённые сотрудники с действующими контрактами;",
     "visa.d7digbenef2": "Цифровые кочевники, работающие с иностранными клиентами;",
     "visa.d7digbenef3": "Учёные, творческие специалисты и поставщики услуг.",
     "visa.d7digbenef4": "Возможность жить в Португалии, работая дистанционно;",
     "visa.d7digbenef5": "Законное пребывание на основании трудового или сервисного договора;",
->>>>>>> 2ca42ba8c3d2c35cfe74a8c949f7211cc0fcc201
+
     "visa.d7digbenef6": "Путь к гражданству Португалии;",
     "visa.d7digbenef7": "Возможность включить членов семьи;",
     "visa.d7digbenef8": "Полная поддержка при релокации и адаптации.",
 
     "visa.goldenvisa": "Golden Visa (Золотая Виза)",
-<<<<<<< HEAD
+
     "visa.goldenvisaforwho1":
       "Для лиц, желающих получить гражданство ЕС или постоянный ВНЖ;",
     "visa.goldenvisaforwho2":
@@ -676,7 +658,7 @@ const translations = {
     "visa.d7": "Visto D7 (Rendimento Passivo)",
     "visa.d7forwho1":
       "Indivíduos com rendimentos passivos: rendas, pensões, royalties, juros;",
-=======
+
     "visa.goldenvisaforwho1": "Для лиц, желающих получить гражданство ЕС или постоянный ВНЖ;",
     "visa.goldenvisaforwho2": "Для тех, кому важна гибкая налоговая резиденция;",
     "visa.goldenvisaforwho3": "Для инвесторов, стремящихся обеспечить будущее своей семьи одной заявкой;",
@@ -804,7 +786,7 @@ const translations = {
 
     "visa.d7": "Visto D7 (Rendimento Passivo)",
     "visa.d7forwho1": "Indivíduos com rendimentos passivos: rendas, pensões, royalties, juros;",
->>>>>>> 2ca42ba8c3d2c35cfe74a8c949f7211cc0fcc201
+
     "visa.d7forwho2": "Reformados, proprietários de imóveis e investidores.",
     "visa.d7forwho3": "Não exige grandes investimentos;",
     "visa.d7forwho4": "Garante residência legal completa em Portugal;",
@@ -813,165 +795,18 @@ const translations = {
     "visa.d7benefits3": "Inclui o cônjuge e filhos dependentes.",
 
     "visa.d7dig": "Visto D7 (Visto Nómada Digital)",
-<<<<<<< HEAD
-    "visa.d7digbenef1":
-      "Freelancers e trabalhadores remotos com contratos válidos;",
-    "visa.d7digbenef2":
-      "Nómadas digitais que prestam serviços a clientes estrangeiros;",
-    "visa.d7digbenef3": "Académicos, criativos e prestadores de serviços.",
-    "visa.d7digbenef4": "Viver em Portugal enquanto trabalha remotamente;",
-    "visa.d7digbenef5":
-      "Estadia legal baseada em contrato de trabalho ou prestação de serviços;",
-=======
     "visa.d7digbenef1": "Freelancers e trabalhadores remotos com contratos válidos;",
     "visa.d7digbenef2": "Nómadas digitais que prestam serviços a clientes estrangeiros;",
     "visa.d7digbenef3": "Académicos, criativos e prestadores de serviços.",
     "visa.d7digbenef4": "Viver em Portugal enquanto trabalha remotamente;",
     "visa.d7digbenef5": "Estadia legal baseada em contrato de trabalho ou prestação de serviços;",
->>>>>>> 2ca42ba8c3d2c35cfe74a8c949f7211cc0fcc201
+
     "visa.d7digbenef6": "Caminho para a cidadania portuguesa;",
     "visa.d7digbenef7": "Inclui a família;",
     "visa.d7digbenef8": "Apoio total de realocação e integração.",
 
     "visa.goldenvisa": "Golden Visa (Visto Gold)",
-<<<<<<< HEAD
-    "visa.goldenvisaforwho1":
-      "Indivíduos que procuram cidadania da UE ou residência permanente;",
-    "visa.goldenvisaforwho2":
-      "Aqueles que desejam uma residência fiscal flexível;",
-    "visa.goldenvisaforwho3":
-      "Investidores que pretendem garantir o futuro da família num único pedido;",
-    "visa.goldenvisaforwho4":
-      "Empreendedores e indivíduos de elevado património (HNWIs) que procuram um “Plano B” legal na Europa.",
-    "visa.goldenvisabenefits1":
-      "Apenas 7 dias de permanência por ano em Portugal;",
-    "visa.goldenvisabenefits2": "Sem obrigação de residência fiscal;",
-    "visa.goldenvisabenefits3": "Possibilidade de cidadania após 5 anos;",
-    "visa.goldenvisabenefits4":
-      "Um investimento abrange toda a família (ex.: €500.000 em fundos de investimento ou €250.000 em doações a projetos estatais);",
-    "visa.goldenvisabenefits5":
-      "Acesso total ao Espaço Schengen e liberdade de circulação na Europa.",
 
-    // Healthcare
-    "healthcare.title": "Sistema de Saúde",
-
-    // Contact
-    "contact.title": "Entre em Contato",
-    "contact.subtitle": "Pronto para começar sua jornada em Portugal",
-    "contact.form.title": "Envie uma Mensagem",
-    "contact.form.send": "Enviar Mensagem",
-    "contact.phone": "Telefone",
-    "contact.office": "Escritório",
-
-    // Pages
-    "page.services.title": "Nossos Serviços",
-    "page.visas.title": "Tipos de Visto",
-    "page.investment.title": "Oportunidades de Investimento",
-    "page.education.title": "Educação e Saúde",
-    "page.contact.title": "Entre em Contato",
-
-    // Contact
-    "contact.form.name": "Nome Completo",
-    "contact.form.email": "Email",
-    "contact.form.phone": "Telefone",
-    "contact.form.message": "Mensagem",
-    "contact.form.submit": "Enviar",
-    "contact.info.title": "Informações de Contato",
-
-    // Gallery Stats
-    "stats.sunshine": "Dias de Sol",
-    "stats.temperature": "Temperatura Média",
-    "stats.distance": "Distância até Portugal",
-    "stats.hours": "horas de luz solar por dia",
-
-    // Gallery Images
-    "gallery.lisbon": "Lisboa Histórica",
-    "gallery.lisbon.desc": "Bairros encantadores com arquitetura tradicional",
-    "gallery.coast": "Costa Atlântica",
-    "gallery.coast.desc": "Belas praias e estilo de vida costeiro",
-    "gallery.modern": "Vida Moderna",
-    "gallery.modern.desc": "Design contemporâneo encontra charme tradicional",
-    "gallery.community": "Vida Comunitária",
-    "gallery.community.desc": "Cultura vibrante e comunidade calorosa",
-  },
-  en: {
-    "hero.title": "Your journey to Portugal starts here",
-    "hero.subtitle":
-      "Ensuring individuals and families start a new life in Portugal — safely, legally, and comfortably. We support our clients at every step, from visa application to full settlement in the country, with a personalized approach tailored to each need.",
-    "hero.vision":
-      "To become the most trusted and professional partner in relocation and immigration across the European Union. We don't just handle paperwork — we guide people through a major life transition.",
-    "hero.cta": "Immigration Strategy",
-    "hero.ourvision": "Our Vision",
-    "hero.approadmap": "Residence Solutions – Service Descriptions",
-    // Navigation
-    "nav.home": "Home",
-    "nav.services": "Services",
-    "nav.visas": "Visas",
-    "nav.investment": "Investment",
-    "nav.education": "Education",
-    "nav.contact": "Contact",
-
-    // Facts
-    "facts.title": "Portugal Facts",
-    "facts.safety": "7th safest country in the world",
-    "facts.europe": "3rd safest in Europe",
-    "facts.welcoming": "One of the most welcoming societies for immigrants",
-
-    // Services
-    "services.title": "Our Services",
-    "services.subtitle":
-      "Complete service package to help you with your Portugal relocation process",
-
-    // Gallery
-    "gallery.title": "Portugal Life",
-
-    // Education
-    "education.title": "Education in Portugal",
-
-    // Healthcare
-    "healthcare.title": "Healthcare System",
-
-    // Contact
-    "contact.title": "Contact Us",
-    "contact.subtitle": "Ready to start your Portugal journey",
-    "contact.form.title": "Send a Message",
-    "contact.form.send": "Send Message",
-    "contact.phone": "Phone",
-    "contact.office": "Office",
-
-    // Pages
-    "page.services.title": "Our Services",
-    "page.visas.title": "Visa Types",
-    "page.investment.title": "Investment Opportunities",
-    "page.education.title": "Education & Healthcare",
-    "page.contact.title": "Get in Touch",
-
-    // Contact
-    "contact.form.name": "Full Name",
-    "contact.form.email": "Email",
-    "contact.form.phone": "Phone",
-    "contact.form.message": "Message",
-    "contact.form.submit": "Send",
-    "contact.info.title": "Contact Information",
-
-    // Gallery Stats
-    "stats.sunshine": "Days of Sunshine",
-    "stats.temperature": "Average Temperature",
-    "stats.distance": "Distance to Portugal",
-    "stats.hours": "hours of sunlight per day",
-
-    // Gallery Images
-    "gallery.lisbon": "Historic Lisbon",
-    "gallery.lisbon.desc":
-      "Charming neighborhoods with traditional architecture",
-    "gallery.coast": "Atlantic Coast",
-    "gallery.coast.desc": "Beautiful beaches and coastal lifestyle",
-    "gallery.modern": "Modern Living",
-    "gallery.modern.desc": "Contemporary design meets traditional charm",
-    "gallery.community": "Community Life",
-    "gallery.community.desc": "Vibrant culture and warm community",
-  },
-=======
     "visa.goldenvisaforwho1": "Indivíduos que procuram cidadania da UE ou residência permanente;",
     "visa.goldenvisaforwho2": "Aqueles que desejam uma residência fiscal flexível;",
     "visa.goldenvisaforwho3": "Investidores que pretendem garantir o futuro da família num único pedido;",
@@ -1170,7 +1005,7 @@ const translations = {
     'gallery.community': 'Community Life',
     'gallery.community.desc': 'Vibrant culture and warm community',
   }
->>>>>>> 2ca42ba8c3d2c35cfe74a8c949f7211cc0fcc201
+
 };
 
 const LanguageContext = createContext<LanguageContextType | undefined>(

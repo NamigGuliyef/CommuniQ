@@ -287,61 +287,6 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
   const services = [
     {
       icon: GraduationCap,
-<<<<<<< HEAD
-      title: t("service.education"),
-      description: t("education.subtitle"),
-    },
-    {
-      icon: Heart,
-      title: t("health.title"),
-      description: t("health.subtitle"),
-    },
-    {
-      icon: CreditCard,
-      title: t("service.loan.title"),
-      description: t("service.loan.subtitle"),
-    },
-    {
-      icon: Building,
-      title: t("service.bankacc"),
-      description:
-        "Account opening process, bank connections, ready in 5-7 days",
-    },
-    {
-      icon: Home,
-      title: t("service.realestate"),
-      description:
-        "Golden Visa eligible properties, regions (Lisbon, Porto, Algarve), complete process steps",
-    },
-    {
-      icon: TrendingUp,
-      title: t("service.investment"),
-      description: "Government-approved funds, advantages, investment types",
-    },
-    {
-      icon: Scale,
-      title: t("service.structuring"),
-      description:
-        "Company registration, tax optimization, Golden Visa eligible business structure",
-    },
-    {
-      icon: FileText,
-      title: t("service.legalconsular"),
-      description:
-        "Document preparation, translation, AIMA/consular procedures",
-    },
-    {
-      icon: Users,
-      title: t("service.community"),
-      description: "Expat networks, business and family support",
-    },
-    {
-      icon: MapPin,
-      title: t("service.tour"),
-      description:
-        "3-5 day tour, property viewings, school/clinic visits, meetings",
-    },
-=======
       title: 'Educational Orientation',
       description: 'Access to top international schools like St. Julian\'s, CAISL, and Oporto British School. University partnerships with Lisbon, NOVA, and Catholic University. 100% English instruction with 90%+ university placement rates.'
     },
@@ -390,7 +335,7 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
       title: 'Tour Package',
       description: '3-5 day guided tours across Lisbon, Cascais, Porto, Algarve. Property visits, school tours, bank appointments, and expat meetings. Airport pickup and private driver included.'
     }
->>>>>>> 2ca42ba8c3d2c35cfe74a8c949f7211cc0fcc201
+
   ];
 
   return (
