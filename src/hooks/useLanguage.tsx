@@ -122,21 +122,93 @@ const translations = {
       "Kafedən tutmuş daşınmaz əmlak layihələrinə, IT startaplarına, konsaltinq və pərakəndə ticarətə qədər müxtəlif sahələr üçün uyğundur.",
     "service.loan.business": "Biznes Sahibləri üçün",
     "service.loan.businessdesc": "Portuqaliyada daşınmaz əmlak sahibi olmaq və ya biznesinizi başlatmaq üçün ağıllı yol — bütün kapitalınızı riskə atmadan.",
-    "service.loan.whytitle":"Niyə bu vacibdir?",
+    "service.loan.whytitle": "Niyə bu vacibdir?",
     "service.loan.whydesc":
       "Əksər müştərilər düşünür ki, Portuqaliyada ev almaq və ya şirkət açmaq üçün yüz minlərlə avro ilkin kapital tələb olunur. Amma bu belə deyil. Doğru dəstək və sənədlərlə yerli banklar layihənizin 70%-dək hissəsini maliyyələşdirə bilər — siz isə həm likvidliyi qoruyur, həm də yaşayış icazəsinə sahib olursunuz. İstər Lissabonda dənizkənarı mənzil, istər Portoda butik otel açmaq istəyirsinizsə — biz ipoteka prosesinin hər mərhələsində (hüquqi, maliyyə və strateji) sizi müşayiət edirik.",
+
+
+    "service.business.title": "Biznes Sahibləri üçün",
+    "service.business.subtitle": "Siz immiqrasiya və investisiya arasında seçim etməli deyilsiniz. Bizim köməyimizlə hər ikisini — uyğun, strateji və təhlükəsiz şəkildə həyata keçirə bilərsiniz.",
+    "service.business.difference.title": "Bizi fərqləndirən nədir?",
+    "service.business.difference.point1": "Portuqaliyanın aparıcı bankları ilə birbaşa əlaqələr — təsdiq müddətini xeyli azaldır.",
+    "service.business.difference.point2": "İmmiqrasiya məqsədlərinə uyğun şəkildə kreditlərin strukturlaşdırılması.",
+    "service.business.difference.point3": "Danışıqlar, müqavilə imzalanması və vəsaitin ayrılması zamanı tam iki dilli dəstək.",
+    "service.business.difference.point4": "Komandamız sizin kredit, viza, daşınmaz əmlak və ya biznes layihənizi vahid proses çərçivəsində əlaqələndirir.",
+
+    "service.business.storytitle": "Müştəri Uğur Hekayələri:",
+    "service.business.story.point1": "4 nəfərlik bir ailə Cascaisdə €420,000 dəyərində ev aldı, cəmi €126,000 ilkin ödəniş etdi — və Golden Visa təsdiqi aldı.",
+    "service.business.story.point2": "Azərbaycanlı sahibkar 0% faizli güzəştli kreditlə 5 il müddətinə €100,000 dəyərində pərakəndə ticarət layihəsini maliyyələşdirdi.",
+    "service.business.story.point3": "Müştərilərimiz yerli nüfuzumuz və ilkin yoxlama prosesimiz sayəsində 15–20 gün ərzində təsdiq alıblar.",
+
+
+
+    "service.bankacc.title": "Fərdi və Korporativ Bank Hesablarının Açılması",
+    "service.bankacc.subtitle": "Niyə bu vacibdir? Portuqaliyada bank hesabı açmaq həm yaşayış icazəsi üçün, həm də gündəlik maliyyə fəaliyyətləri üçün kritik addımdır.",
+    "service.bankacc.step1": "Golden Visa və D7 vizaları üçün tələb olunur;",
+    "service.bankacc.step2": "Gəlir mənbəyini və maliyyə təminatını sübut edir;",
+    "service.bankacc.step3": "Daşınmaz əmlak alışı, kommunal ödənişlər və sığorta əməliyyatlarını mümkün edir;",
+    "service.bankacc.step4": "Biznes əməliyyatları üçün vacibdir — ödənişlər, əmək haqqı və vergi uyğunluğu.",
+
+    "service.bankacc.offer.title": "Fərdi Hesablar — Biz nə təklif edirik:",
+    "service.bankacc.offerstep1": "Fərdi və korporativ hesabların sürətli açılışı;",
+    "service.bankacc.offerstep2": "Ən nüfuzlu banklarla birbaşa əlaqə: Millennium BCP, Novo Banco, Santander;",
+    "service.bankacc.offerstep3": "KYC (Müştərini Tanı) sənədlərinin tam hazırlanması;",
+    "service.bankacc.offerstep4": "İngilis dilli xidmət üçün əvvəlcədən təyin olunmuş əlaqə menecerləri;",
+    "service.bankacc.offerstep5": "Şirkət qeydiyyatı və mühasibat uçotu ilə tam uyğun korporativ bank quruluşu;",
+    "service.bankacc.offerstep6": "Standart zaman çərçivəsi: 5–7 iş günü.",
+
+
+    "service.realestate.title": "Daşınmaz Əmlak üzrə Rəhbərlik",
+    "service.realestate.subtitle": "Ağıllı al, daha yaxşı yaşa — və ya yuxuda olarkən belə gəlir gətirən portfel qur.",
+    "service.realestate.title2": "Niyə Portuqaliyada daşınmaz əmlaka investisiya etməli?",
+    "service.realestate.point1": "Portuqaliya həm həyat tərzi, həm də sərmayə baxımından Avropanın ən cəlbedici daşınmaz əmlak bazarlarından biridir.",
+    "service.realestate.point2": "İstər əsas yaşayış evi, istər istirahət mənzili, istərsə də icarə gəliri gətirən investisiya axtarırsınız — mütəxəssislər komandamız sizə uyğun variantı tapmaqda, qiymətləndirməkdə və bağlama mərhələsində tam dəstək verir. ",
+    "service.realestate.offer.title": "Biz nəyi təmin edirik:",
+    "service.realestate.offerstep1": "Yaşayış icazəsinə uyğun daşınmaz əmlak variantlarının müəyyənləşdirilməsi (Golden Visa uyğun, D7 üçün icarə seçimləri və s.);",
+    "service.realestate.offerstep2": "Lissabon, Porto, Algarve, Cascais, Setúbal və yüksələn dəyər zonaları üzrə axtarış;",
+    "service.realestate.offerstep3": "Qapalı bazar təklifləri, inkişaf etdirici layihələr və endirimli aktivlərə çıxış;",
+    "service.realestate.offerstep4": "Uzunmüddətli icarə gəliri, dəyər artımı və satış likvidliyinin qiymətləndirilməsi;",
+    "service.realestate.offerstep5": "Əmlaka baxışların təşkili, danışıqlar, təkliflərin təqdimatı, hüquqi yoxlama və qeydiyyat;",
+    "service.realestate.offerstep6": "Tam proses üzrə rəhbərlik: rezervasiya → CPCV → notarius → reyestr;",
+    "service.realestate.offerstep7": " “Buy-to-let”, “co-living”, turizm kirayəsi lisenziyası və idarəetmə üzrə məsləhət.",
+
+
+    "service.investment.special.title": "Xüsusi Seçilmiş İnvestisiya İmkanları",
+    "service.investment.special.subtitle": "“Biz kirayəçilərlə və ya daşınmaz əmlak idarəçiliyi ilə məşğul olmaq istəmirdik. Fond investisiyası bizə həm təmiz investisiya, həm də sadə yaşayış icazəsi yolu təqdim etdi.”— Mərkəzi Asiyadan olan müştəri",
+    "service.investment.special.question": "Niyə fond əsaslı Golden Visa investisiyaları?",
+    "service.investment.special.point1": "Dövlət tərəfindən təsdiqlənmiş özəl kapital və vençur fondları;",
+    "service.investment.special.point2": "Auditdən keçmiş və CMVM (Portuqaliya Qiymətli Kağızlar Bazarına Nəzarət Komissiyası) tərəfindən tənzimlənən strukturlar;",
+    "service.investment.special.point3": "Portuqaliyanın Golden Visa qanunvericiliyinə tam uyğunluq;",
+    "service.investment.special.point4": "Texnologiya, daşınmaz əmlak, enerji və innovasiya sektorlarında diversifikasiya imkanı;",
+    "service.investment.special.point5": "Passiv gəlir və kapitalın dəyər artımı potensialı;",
+    "service.investment.special.point6": "Ailə üzvləri üçün minimal fiziki iştirak tələbi ilə yaşayış icazəsi.",
+
+    "service.investment.special.benefit.title": "Əsas Üstünlüklər:",
+    "service.investment.special.benefit1": "Daşınmaz əmlak almağa ehtiyac yoxdur;",
+    "service.investment.special.benefit2": "İdarəetmə, vergi və icarə məsuliyyəti yoxdur;",
+    "service.investment.special.benefit3": "100% qanuni Golden Visa və 5 il ərzində vətəndaşlıq yolu;",
+    "service.investment.special.benefit4": "Lisenziyalı peşəkarlar tərəfindən idarə olunur, fəaliyyət nəticələri ilə sübut edilmiş tarixçəyə malikdir;",
+    "service.investment.special.benefit5": "Bəzi hallarda ilkin gəlir payı ilk 6–12 ay ərzində mümkündür.",
+
+
+    "service.corporate.title": "Korporativ Strukturlaşdırma və Məsləhət Xidməti",
+    "service.corporate.subtitle": "Sizin Avropa İttifaqında tam uyğun fəaliyyət göstərən biznes qurmaq üçün qapınız. İstər yeni şirkət açmaq, istər mövcud biznesinizi genişləndirmək istəyirsinizsə — biz sizə Portuqaliyada uğur qazanmaq üçün tam hüquqi və əməliyyat çərçivəsi təqdim edirik. ",
+    "service.corporate.offer": "Biz nə təklif edirik:",
+    "service.corporate.offerstep1": "Şirkət qeydiyyatı (LDA, SA və ya filial) – tam qanuni uyğunluqla;",
+    "service.corporate.offerstep2": "Vergi səmərəliliyini artırmaq və Golden Visa proqramına uyğunluğu təmin etmək üçün strateji korporativ strukturlaşdırma;",
+    "service.corporate.offerstep3": "NIF, ƏDV (VAT), sosial sığorta və korporativ bank hesablarının tam açılması;",
+    "service.corporate.offerstep4": "Yerli əmək qanunvericiliyi, intellektual mülkiyyət qorunması və biznes lisenziyalaşdırılması üzrə məsləhət;",
+    "service.corporate.offerstep5": "Etibarlı mühasiblər, hüquqşünaslar və maliyyə məsləhətçiləri ilə əlaqələr.",
+    "service.corporate.whyimportant": "Niyə bu vacibdir:",
+    "service.corporate.whyimportantpoint1":"Sizə Golden Visa və ya D7 yaşayış icazəsi qazandıran biznes qurun;",
+    "service.corporate.whyimportantpoint2":"•	İlk gündən tam qanuni fəaliyyət – uyğunluq problemlərindən yayınmaq;",
+    "service.corporate.whyimportantpoint3":"•	Vergiləri optimallaşdırmaq üçün ağıllı strukturlaşdırma;",
+    "service.corporate.whyimportantpoint4":" •	Biznesinizi yerli və ya Avropa bazarında genişləndirmək imkanı.",
 
 
     "visa.d7": "D7 Viza (Passiv Gəlir Vizası)",
     "visa.d7forwho1":
       "Passiv gəlirə sahib şəxslər: icarə, pensiya, royalti, faiz gəlirləri;",
-
-    'nav.home': 'Ana Səhifə',
-    'nav.services': 'Xidmətlər',
-    'nav.visas': 'Vizalar',
-    'nav.investment': 'İnvestisiya',
-    'nav.education': 'Təhsil',
-    'nav.contact': 'Əlaqə',
 
 
     // Facts
@@ -147,53 +219,7 @@ const translations = {
     'fact.europe': 'Avropada 3-cü ən təhlükəsiz',
     'fact.welcoming': 'Ən qonaqpərvər cəmiyyətlərdən biri',
 
-    // Services
-    'services.title': 'Xidmətlərimiz',
-    'services.subtitle': 'Portuqaliyaya köçmə prosesinizdə sizə kömək edən tam xidmət paketi',
-    'service.education': "Təhsil üzrə yönləndirmə",
-    'service.medical': "Səhiyyə üzrə yönləndirmə",
-    'service.loan': "İpoteka və kreditlərin əldə edilməsinə köməklik",
-    'service.bankacc': "Fərdi və korporativ bank hesablarının açılması",
-    'service.realestate': "Daşınmaz əmlakla bağlı məsləhət",
-    'service.investment': "Xüsusi seçilmiş investisiya imkanları",
-    'service.structuring': "Korporativ strukturlaşdırma və məsləhət",
-    'service.legalconsular': "Hüquqi və konsulluq sənədləşdirilməsinə dəstək",
-    'service.community': "İcma və peşəkar şəbəkəyə inteqrasiya",
-    'service.tour': "Tur paketi",
 
-    'education.title': 'Təhsil İstiqaməti',
-    'education.subtitle': 'Portuqaliya Avropanın ən nüfuzlu beynəlxalq məktəblərindən bəzilərinə çıxış imkanı təklif edir. Bu məktəblər məzunlarına Aİ (Avropa İttifaqı) universitetlərinə, ABŞ-dakı Ivy League universitetlərinə və Böyük Britaniyanın aparıcı universitetlərinə qəbul olmaq imkanı yaradır.',
-    'education.title2': 'Ən nüfuzlu beynəlxalq məktəblər:',
-    'education.school1name': "St. Julian’s School",
-    'education.school1desc': "1932-ci ildən fəaliyyət göstərən Avropanın ən qədim Britaniya məktəblərindən biri. Məzunları Oksford, LSE və UCL kimi universitetlərə qəbul olunur.",
-    'education.school2name': "Carlucci American International School of Lisbon (CAISL)",
-    'education.school2desc': "IB (Beynəlxalq Bakalavriat) və Amerika tədris proqramları üzrə təhsil verən bir məktəbdir. Məzunları Harvard, MIT və Kolumbiya kimi universitetlərə qəbul olunur.",
-    'education.school3name': "Oporto British School",
-    'education.school3desc': "Portuqaliyanın şimalında yerləşən və Kembric Universiteti tərəfindən akkreditasiya edilmiş yüksək səviyyəli bir təhsil müəssisəsidir.",
-
-    'uni.title': "Universitetlər",
-    'uni.uni1name': "Lissabon Universiteti",
-    'uni.uni1desc': "QS Dünya Universitet Reytinqində 2025-ci il üçün #262 yerdə qərarlaşıb.",
-    'uni.uni2name': "NOVA Lissabon Universiteti",
-    'uni.uni2desc': "“QS Top 50 Under 50” siyahısında yer alır. Portuqaliya immiqrantlar üçün ən mehriban cəmiyyətlərdən biri hesab olunur — digər Aİ ölkələri ilə müqayisədə irqçilik və ya ksenofobiya səviyyəsi çox aşağıdır. Mənbə: Avropa Sosial Tədqiqatı, 2022",
-    'uni.uni3name': "Portuqaliyanın Katolik Universiteti",
-    'uni.uni3desc': "Biznes və hüquq proqramlarına görə Financial Times tərəfindən qlobal reytinqdə yer alıb. İngilis dilində tədris olunan bakalavr və magistr proqramları mövcuddur: tibb, məlumat elmləri, mühəndislik və digər sahələr üzrə.",
-
-
-    'health.title': "Səhiyyə üzrə yönləndirmə",
-    'health.subtitle': "OECD Səhiyyə Statistikalarına əsasən, Portuqaliya Avropanın ən yaxşı dövlət səhiyyə sistemlərindən birinə malikdir — və onun özəl sektor şəbəkəsi daha da inkişaf etmiş səviyyədədir.",
-    'health.title2': "Ən nüfuzlu özəl xəstəxana şəbəkələri",
-    'health.hosp1name': "Hospital da Luz",
-    'health.hosp1desc': "Ən müasir avadanlıqlarla təchiz olunmuş, beynəlxalq pasiyentlər üçün xidmət göstərən xəstəxanalar şəbəkəsi.",
-    'health.hosp2name': "CUF Saúde",
-    'health.hosp2desc': "Portuqaliyanın müxtəlif şəhərlərində 20-dən çox özəl xəstəxanadan ibarətdir, yüksək pasiyent məmnuniyyəti ilə seçilir.",
-    'health.hosp3name': "Lusíadas Saúde",
-    'health.hosp3desc': "Beynəlxalq JCI akkreditasiyasına malik, qlobal səhiyyə standartlarına cavab verən şəbəkədir.",
-
-
-
-    "visa.d7": "D7 Viza (Passiv Gəlir Vizası)",
-    "visa.d7forwho1": "Passiv gəlirə sahib şəxslər: icarə, pensiya, royalti, faiz gəlirləri;",
     "visa.d7forwho2": "Təqaüdçülər, daşınmaz əmlak sahibləri və investorlar.",
     "visa.d7forwho3": "Böyük məbləğdə investisiya tələb etmir;",
     "visa.d7forwho4": "Portuqaliyada tam hüquqi yaşayış icazəsi verir;",
@@ -266,61 +292,6 @@ const translations = {
     "stats.temperature": "Orta Temperatur",
     "stats.distance": "Portugaliyadakı Məsafə",
     "stats.hours": "gündə günəş işığı saatı",
-
-    "visa.d7benefits3": "Həyat yoldaşı və asılı uşaqları da viza proqramına daxildir.",
-
-    "visa.d7dig": "D7 Viza (Rəqəmsal Köçəri Vizası)",
-    "visa.d7digbenef1": "Etibarlı müqaviləsi olan freelancerlər və uzaqdan işləyənlər;",
-    "visa.d7digbenef2": "Xarici müştərilərlə işləyən rəqəmsal köçərilər;",
-    "visa.d7digbenef3": "Akademiklər, yaradıcı şəxslər və xidmət göstərən peşəkarlar.",
-    "visa.d7digbenef4": "Uzaqdan işləyərək Portuqaliyada yaşamaq imkanı;",
-    "visa.d7digbenef5": "Rəsmi əmək və ya xidmət müqaviləsinə əsaslanan qanuni qalma hüququ;",
-    "visa.d7digbenef6": "Vətəndaşlığa aparan yol;",
-    "visa.d7digbenef7": "Ailə üzvlərini də proqram daxilində gətirmək mümkündür;",
-    "visa.d7digbenef8": "Köç və inteqrasiya üçün tam relokasiya dəstəyi.",
-
-    "visa.goldenvisa": "Golden Visa",
-    "visa.goldenvisaforwho1": "Avropa İttifaqı vətəndaşlığı və ya daimi yaşayış icazəsi əldə etmək istəyən şəxslər;",
-    "visa.goldenvisaforwho2": "Elastik vergi rezidentliyi imkanına ehtiyacı olanlar;",
-    "visa.goldenvisaforwho3": "Ailəsinin gələcəyini bir müraciətlə təmin etmək istəyən investorlar;",
-    "visa.goldenvisaforwho4": "Sahibkarlar və yüksək gəlirli şəxslər (HNWIs) üçün Avropada qanuni “Plan B”.",
-    "visa.goldenvisabenefits1": "Portuqaliyada ildə cəmi 7 gün qalmaq kifayətdir;",
-    "visa.goldenvisabenefits2": "Vergi rezidentliyi məcburi deyil;",
-    "visa.goldenvisabenefits3": "5 ildən sonra vətəndaşlıq müraciəti imkanı;",
-    "visa.goldenvisabenefits4": "Bir investisiya bütün ailəni əhatə edir (məsələn, €500,000 investisiya fondu və ya €250,000 dövlət layihəsinə ianə);",
-    "visa.goldenvisabenefits5": "Şengen zonasında sərbəst hərəkət və Avropada azadlıq təmin edir.",
-
-    // Gallery
-    'gallery.title': 'Portuqaliya Həyatı',
-
-    // Contact
-    'contact.title': 'Əlaqə',
-    'contact.subtitle': 'Sizin Portuqaliya səyahətinizə başlamağa hazırıq',
-    'contact.form.title': 'Mesaj Göndərin',
-    'contact.form.send': 'Göndər',
-    'contact.phone': 'Telefon',
-    'contact.office': 'Ofis',
-
-    // Pages
-    'page.services.title': 'Xidmətlərimiz',
-    'page.visas.title': 'Viza Növləri',
-    'page.investment.title': 'İnvestisiya İmkanları',
-    'page.education.title': 'Təhsil və Səhiyyə',
-    'page.contact.title': 'Bizimlə Əlaqə Saxlayın',
-
-    // Contact
-    'contact.form.name': 'Ad Soyad',
-    'contact.form.email': 'Email',
-    'contact.form.phone': 'Telefon',
-    'contact.form.message': 'Mesaj',
-    'contact.form.submit': 'Göndər',
-    'contact.info.title': 'Əlaqə Məlumatları',
-
-    // Gallery Stats
-    'stats.sunshine': 'Günəşli Günlər',
-    'stats.temperature': 'Orta Temperatur',
-    'stats.distance': 'Portugaliyadakı Məsafə',
-    'stats.hours': 'gündə günəş işığı saatı',
 
 
     // Gallery Images
@@ -417,12 +388,7 @@ const translations = {
     "visa.d7forwho1":
       "Лица, имеющие пассивный доход: аренда, пенсия, роялти, проценты;",
 
-    'nav.home': 'Главная',
-    'nav.services': 'Услуги',
-    'nav.visas': 'Визы',
-    'nav.investment': 'Инвестиции',
-    'nav.education': 'Образование',
-    'nav.contact': 'Контакты',
+
     // Facts
     'fact.safety': '7-я самая безопасная страна в мире',
     "fact.desc1": "Глобальный индекс мира 2024",
@@ -431,53 +397,6 @@ const translations = {
     'fact.europe': '3-я самая безопасная в Европе',
     'fact.welcoming': 'Одно из самых гостеприимных обществ',
 
-    // Services
-    'services.title': 'Наши Услуги',
-    'services.subtitle': 'Полный пакет услуг для помощи в процессе переезда в Португалию',
-    'service.education': "Ознакомление с системой образования",
-    'service.medical': "Ознакомление с системой здравоохранения",
-    'service.loan': "Содействие в получении ипотеки и кредитов",
-    'service.bankacc': "Организация банковского обслуживания для частных лиц и компаний",
-    'service.realestate': "Консультации по вопросам недвижимости",
-    'service.investment': "Специально подобранные инвестиционные возможности",
-    'service.structuring': "Структурирование компаний и консультирование",
-    'service.legalconsular': "Поддержка в оформлении юридических и консульских документов",
-    'service.community': "Интеграция в местное сообщество и профессиональную среду",
-    'service.tour': "Туристический пакет",
-
-    'education.title': 'Образовательная ориентация',
-    'education.subtitle': 'Португалия предоставляет доступ к некоторым из самых престижных международных школ Европы. Эти школы открывают пути для поступления в университеты ЕС, в вузы Лиги Плюща в США, а также в ведущие университеты Великобритании.',
-    'education.title2': 'Лучшие международные школы:',
-    'education.school1name': "St. Julian’s School",
-    'education.school1desc': "одна из старейших британских школ в Европе (основана в 1932 году). Ее выпускники поступают в Оксфорд, Лондонскую школу экономики (LSE) и Университетский колледж Лондона (UCL).",
-    'education.school2name': "Carlucci American International School of Lisbon (CAISL)",
-    'education.school2desc': "школа, предлагающая программы международного бакалавриата (IB) и американский учебный план. Выпускники этой школы поступают в Гарвард, Массачусетский технологический институт (MIT) и Колумбийский университет.",
-    'education.school3name': "Oporto British School",
-    'education.school3desc': "престижное учебное заведение на севере Португалии, аккредитованное Кембриджским университетом.",
-
-
-    'uni.title': "Университеты",
-    'uni.uni1name': "Лиссабонский университет",
-    'uni.uni1desc': "занимает 262-е место в мировом рейтинге QS World University Rankings 2025.",
-    'uni.uni2name': "Университет NOVA в Лиссабоне",
-    'uni.uni2desc': "входит в список “QS Top 50 Under 50”. Португалия считается одним из самых дружелюбных обществ для иммигрантов, с низким уровнем расизма и ксенофобии по сравнению с другими странами ЕС. Источник: European Social Survey, 2022",
-    'uni.uni3name': "Католический университет Португалии",
-    'uni.uni3desc': "включён в глобальный рейтинг Financial Times за свои программы в области бизнеса и права. Доступны бакалаврские и магистерские программы на английском языке: медицина, наука о данных, инженерия и другие направления.",
-
-
-    'health.title': "Ориентация в системе здравоохранения",
-    'health.subtitle': "Согласно статистике OECD, Португалия обладает одной из лучших государственных систем здравоохранения в Европе — а её частная сеть ещё более развита.",
-    'health.title2': "Ведущие частные госпитальные сети:",
-    'health.hosp1name': "Hospital da Luz",
-    'health.hosp1desc': "Современные клиники с международным обслуживанием пациентов.",
-    'health.hosp2name': "CUF Saúde",
-    'health.hosp2desc': "Более 20 частных больниц по всей Португалии с высоким уровнем удовлетворённости пациентов.",
-    'health.hosp3name': "Lusíadas Saúde",
-    'health.hosp3desc': "Сеть, аккредитованная JCI, соответствующая международным стандартам медицинского обслуживания.",
-
-
-    "visa.d7": "Виза D7 (Пассивный Доход)",
-    "visa.d7forwho1": "Лица, имеющие пассивный доход: аренда, пенсия, роялти, проценты;",
 
     "visa.d7forwho2": "Пенсионеры, владельцы недвижимости, инвесторы.",
     "visa.d7forwho3": "Не требует крупных инвестиций;",
@@ -497,11 +416,6 @@ const translations = {
     "visa.d7digbenef5":
       "Законное пребывание на основании трудового или сервисного договора;",
 
-    "visa.d7digbenef1": "Фрилансеры и удалённые сотрудники с действующими контрактами;",
-    "visa.d7digbenef2": "Цифровые кочевники, работающие с иностранными клиентами;",
-    "visa.d7digbenef3": "Учёные, творческие специалисты и поставщики услуг.",
-    "visa.d7digbenef4": "Возможность жить в Португалии, работая дистанционно;",
-    "visa.d7digbenef5": "Законное пребывание на основании трудового или сервисного договора;",
 
     "visa.d7digbenef6": "Путь к гражданству Португалии;",
     "visa.d7digbenef7": "Возможность включить членов семьи;",
@@ -573,148 +487,7 @@ const translations = {
     "gallery.community": "Общественная Жизнь",
     "gallery.community.desc": "Яркая культура и теплое сообщество",
   },
-  pt: {
-    "hero.title": "A sua jornada para Portugal começa aqui",
-    "hero.subtitle":
-      "Assegurar que indivíduos e famílias iniciem uma nova vida em Portugal — de forma segura, legal e confortável. Apoiamos os nossos clientes em cada etapa, desde o pedido de visto até à instalação completa no país, com uma abordagem personalizada adaptada a cada necessidade.",
-    "hero.vision":
-      "Tornar-se o parceiro mais confiável e profissional na área de realocação e imigração em toda a União Europeia. Não lidamos apenas com burocracia — guiamos as pessoas por uma grande transição em suas vidas.",
-    "hero.cta": "Estratégia de imigração",
-    "hero.ourvision": "Nossa Visão",
-    "hero.approadmap": "Soluções de residência – descrições de serviços",
-    // Navigation
-    "nav.home": "Início",
-    "nav.services": "Serviços",
-    "nav.visas": "Vistos",
-    "nav.investment": "Investimento",
-    "nav.education": "Educação",
-    "nav.contact": "Contato",
 
-    // Facts
-    "facts.title": "Fatos sobre Portugal",
-    "facts.safety": "7º país mais seguro do mundo",
-    "facts.europe": "3º mais seguro na Europa",
-    "facts.welcoming": "Uma das sociedades mais acolhedoras para imigrantes",
-
-    // Services
-    "services.title": "Nossos Serviços",
-    "services.subtitle":
-      "Pacote completo de serviços para ajudá-lo no processo de mudança para Portugal",
-    "service.education": "Orientação educacional",
-    "service.medical": "Orientação em saúde",
-    "service.loan": "Facilitação de hipotecas e empréstimos",
-    "service.bankacc":
-      "Abertura de contas bancárias individuais e empresariais",
-    "service.realestate": "Consultoria imobiliária",
-    "service.investment": "Oportunidades de investimento selecionadas",
-    "service.structuring": "Estruturação corporativa e consultoria",
-    "service.legalconsular": "Apoio em documentação legal e consular",
-    "service.community": "Integração na comunidade e em redes profissionais",
-    "service.tour": "Pacote turístico",
-
-    "education.title": "Orientação Educacional",
-    "education.subtitle":
-      "Portugal oferece acesso a algumas das escolas internacionais mais conceituadas da Europa, com caminhos para universidades da UE, da Ivy League nos EUA e para as principais universidades do Reino Unido.",
-    "education.title2": "Principais Escolas Internacionais:",
-    "education.school1name": "St. Julian’s School",
-    "education.school1desc":
-      "uma das escolas britânicas mais antigas da Europa (fundada em 1932), cujos ex-alunos foram admitidos em Oxford, LSE e UCL.",
-    "education.school2name":
-      "Carlucci American International School of Lisbon (CAISL)",
-    "education.school2desc":
-      "oferece os currículos IB (Bacharelato Internacional) e americano. Seus ex-alunos ingressaram em Harvard, MIT e Columbia.",
-    "education.school3name": "Oporto British School",
-    "education.school3desc":
-      "uma instituição de alto nível no norte de Portugal, credenciada pela Universidade de Cambridge.",
-
-    "uni.title": "Universidades",
-    "uni.uni1name": "Universidade de Lisboa",
-    "uni.uni1desc":
-      "Classificada em #262 no QS World University Rankings 2025.",
-    "uni.uni2name": "Universidade NOVA de Lisboa",
-    "uni.uni2desc":
-      "Incluída na lista “QS Top 50 Under 50”. Portugal é uma das sociedades mais acolhedoras para imigrantes, com baixos níveis de racismo e xenofobia em comparação com outros países da UE. Fonte: European Social Survey, 2022",
-    "uni.uni3name": "Universidade Católica Portuguesa",
-    "uni.uni3desc":
-      "Reconhecida mundialmente pelo Financial Times pelos seus programas de negócios e direito. Programas de Licenciatura e Mestrado ministrados em inglês disponíveis em Medicina, Ciência de Dados, Engenharia e muito mais.",
-
-    "health.title": "Orientação em Saúde",
-    "health.subtitle":
-      "De acordo com as estatísticas da OCDE, Portugal possui um dos melhores sistemas públicos de saúde da Europa — e a sua rede privada é ainda mais avançada.",
-    "health.title2": "Principais redes hospitalares privadas:",
-    "health.hosp1name": "Hospital da Luz",
-    "health.hosp1desc":
-      "Instalações de última geração e atendimento internacional ao paciente.",
-    "health.hosp2name": "CUF Saúde",
-    "health.hosp2desc":
-      "Mais de 20 hospitais privados em todo o país com altos níveis de satisfação dos pacientes.",
-    "health.hosp3name": "Lusíadas Saúde",
-    "health.hosp3desc":
-      "Rede acreditada pela JCI, com padrões globais de qualidade.",
-
-    // Gallery
-    "gallery.title": "Vida em Portugal",
-
-    "visa.d7": "Visto D7 (Rendimento Passivo)",
-    "visa.d7forwho1":
-      "Indivíduos com rendimentos passivos: rendas, pensões, royalties, juros;",
-
-    "visa.goldenvisaforwho1": "Для лиц, желающих получить гражданство ЕС или постоянный ВНЖ;",
-    "visa.goldenvisaforwho2": "Для тех, кому важна гибкая налоговая резиденция;",
-    "visa.goldenvisaforwho3": "Для инвесторов, стремящихся обеспечить будущее своей семьи одной заявкой;",
-    "visa.goldenvisaforwho4": "Для предпринимателей и состоятельных лиц (HNWIs), ищущих законный “план B” в Европе.",
-    "visa.goldenvisabenefits1": "Требуется всего 7 дней пребывания в год в Португалии;",
-    "visa.goldenvisabenefits2": "Налоговое резидентство не обязательно;",
-    "visa.goldenvisabenefits3": "Возможность подачи на гражданство через 5 лет;",
-    "visa.goldenvisabenefits4": "Одна инвестиция покрывает всю семью (например, €500,000 в инвестиционные фонды или €250,000 в государственные проекты);",
-    "visa.goldenvisabenefits5": "Полный доступ к Шенгенской зоне и свободное передвижение по Европе.",
-
-    // Gallery
-    'gallery.title': 'Жизнь в Португалии',
-
-
-    // Healthcare
-    'healthcare.title': 'Система Здравоохранения',
-
-    // Contact
-    'contact.title': 'Контакты',
-    'contact.subtitle': 'Готовы начать ваше путешествие в Португалию',
-    'contact.form.title': 'Отправить Сообщение',
-    'contact.form.send': 'Отправить',
-    'contact.phone': 'Телефон',
-    'contact.office': 'Офис',
-
-    // Pages
-    'page.services.title': 'Наши Услуги',
-    'page.visas.title': 'Типы Виз',
-    'page.investment.title': 'Инвестиционные Возможности',
-    'page.education.title': 'Образование и Здравоохранение',
-    'page.contact.title': 'Свяжитесь с Нами',
-
-    // Contact
-    'contact.form.name': 'Имя Фамилия',
-    'contact.form.email': 'Email',
-    'contact.form.phone': 'Телефон',
-    'contact.form.message': 'Сообщение',
-    'contact.form.submit': 'Отправить',
-    'contact.info.title': 'Контактная Информация',
-
-    // Gallery Stats
-    'stats.sunshine': 'Дней Солнца',
-    'stats.temperature': 'Средняя Температура',
-    'stats.distance': 'Расстояние до Португалии',
-    'stats.hours': 'часов солнечного света в день',
-
-    // Gallery Images
-    'gallery.lisbon': 'Исторический Лиссабон',
-    'gallery.lisbon.desc': 'Очаровательные районы с традиционной архитектурой',
-    'gallery.coast': 'Атлантическое Побережье',
-    'gallery.coast.desc': 'Красивые пляжи и прибрежный образ жизни',
-    'gallery.modern': 'Современная Жизнь',
-    'gallery.modern.desc': 'Современный дизайн сочетается с традиционным шармом',
-    'gallery.community': 'Общественная Жизнь',
-    'gallery.community.desc': 'Яркая культура и теплое сообщество',
-  },
   pt: {
     'hero.title': 'A sua jornada para Portugal começa aqui',
     'hero.subtitle': 'Assegurar que indivíduos e famílias iniciem uma nova vida em Portugal — de forma segura, legal e confortável. Apoiamos os nossos clientes em cada etapa, desde o pedido de visto até à instalação completa no país, com uma abordagem personalizada adaptada a cada necessidade.',
@@ -1031,7 +804,7 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
   const t = (key: string): string => {
     const translation =
       translations[language]?.[
-        key as keyof (typeof translations)[typeof language]
+      key as keyof (typeof translations)[typeof language]
       ];
     return translation || key;
   };
