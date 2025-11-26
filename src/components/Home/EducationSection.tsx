@@ -1,59 +1,61 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { GraduationCap, Star, Globe, Award } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage';
-import universityLisbon from '@/assets/university-lisbon.jpg';
-import universityPorto from '@/assets/university-porto.jpg';
-import universityNova from '@/assets/university-nova.jpg';
-import universityCatholic from '@/assets/university-catholic.jpg';
+import universityLisbon from '@/assets/university-lissabon.jpg';
+import CAISL from '@/assets/CAISLDroneEMI.jpg';
+import campus from '@/assets/campus.jpeg';
+import oporto_british_school from '@/assets/oporto_british_school.jpg';
+import nova_lissabon from '@/assets/university-lisbon.jpg';
+import portugal_katolik from '@/assets/portugal_katolik.jpg';
 
 const EducationSection = () => {
   const { t } = useLanguage();
 
   const schools = [
     {
-      name: t('education.school1name'),
-      description: t('education.school1desc'),
+      name: t('internationalSchools.title'),
+      description: t('internationalSchools.desc'),
       ranking: 'British Heritage',
       icon: GraduationCap,
-      image: universityLisbon
+      image: campus
     },
     {
-      name: t('education.school2name'),
-      description: t('education.school2desc'),
+      name: t('internationalSchools2.title'),
+      description: t('internationalSchools2.desc'),
       ranking: 'American Excellence',
       icon: Award,
-      image: universityPorto
+      image: CAISL
     },
     {
-      name: t('education.school3name'),
-      description: t('education.school3desc'),
+      name: t('internationalSchools3.title'),
+      description: t('internationalSchools3.desc'),
       ranking: 'Cambridge Accredited',
       icon: Star,
-      image: universityNova
+      image: oporto_british_school
     }
   ];
 
   const universities = [
     {
-      name: t('uni.uni1name'),
-      description: t('uni.uni1desc'),
+      name: t('universities.title'),
+      description: t('universities.desc'),
       ranking: '#262 QS World Ranking',
       icon: GraduationCap,
       image: universityLisbon
     },
     {
-      name: t('uni.uni2name'),
-      description: t('uni.uni2desc'),
+      name: t('universities2.title'),
+      description: t('universities2.desc'),
       ranking: 'QS Top 50 Under 50',
       icon: Star,
-      image: universityNova
+      image: nova_lissabon
     },
     {
-      name: t('uni.uni3name'),
-      description: t('uni.uni3desc'),
+      name: t('universities3.title'),
+      description: t('universities3.desc'),
       ranking: 'FT Global Rankings',
       icon: Globe,
-      image: universityCatholic
+      image: portugal_katolik
     },
     // {
     //   name: 'University of Porto',

@@ -266,6 +266,23 @@ const translations = {
     "service.tour.benefit4": "Bütün logistika bizdədir — siz sadəcə kəşf edin və suallarınızı verin.",
 
 
+    // international schools
+    "internationalSchools.title": "St. Julian’s School ",
+    "internationalSchools.desc":"1932-ci ildən fəaliyyət göstərən Avropanın ən qədim Britaniya məktəblərindən biri. Məzunları Oksford, LSE və UCL kimi universitetlərə qəbul olunur.",
+    "internationalSchools2.title": "Carlucci American International School of Lisbon (CAISL)",
+    "internationalSchools2.desc":"IB (Beynəlxalq Bakalavriat) və Amerika tədris proqramları üzrə təhsil verən bir məktəbdir. Məzunları Harvard, MIT və Kolumbiya kimi universitetlərə qəbul olunur.",
+    "internationalSchools3.title": "Oporto British School",
+    "internationalSchools3.desc":"Portuqaliyanın şimalında yerləşən və Kembric Universiteti tərəfindən akkreditasiya edilmiş yüksək səviyyəli bir təhsil müəssisəsidir.",
+
+    // Universities
+    "universities.title": "Lissabon Universiteti",
+    "universities.desc":"QS Dünya Universitet Reytinqində 2025-ci il üçün #262 yerdə qərarlaşıb.",
+    "universities2.title": "NOVA Lissabon Universiteti",
+    "universities2.desc":"“QS Top 50 Under 50” siyahısında yer alır.",
+    "universities3.title": "Portuqaliyanın Katolik Universiteti",
+    "universities3.desc":"Biznes və hüquq proqramlarına görə Financial Times tərəfindən qlobal reytinqdə yer alıb. İngilis dilində tədris olunan bakalavr və magistr proqramları mövcuddur: tibb, məlumat elmləri, mühəndislik və digər sahələr üzrə.",
+
+
 
     "visa.d7": "D7 Viza (Passiv Gəlir Vizası)",
     "visa.d7forwho1":
