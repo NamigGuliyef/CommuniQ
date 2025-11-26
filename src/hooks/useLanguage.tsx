@@ -206,6 +206,67 @@ const translations = {
     "service.corporate.whyimportantpoint4":" •	Biznesinizi yerli və ya Avropa bazarında genişləndirmək imkanı.",
 
 
+    "service.legal.title": "Hüquqi və Konsulluq Sənədləşdirilməsi Dəstəyi",
+    "service.legal.offerTitle": "Biz nə təklif edirik:",
+    "service.legal.offer1": "Viza, yaşayış və vətəndaşlıq üçün tələb olunan bütün sənədlərin hazırlanması;",
+    "service.legal.offer2": "Təsdiqlənmiş tərcümələr, apostil və səfirliklərlə əlaqələndirmə;",
+    "service.legal.offer3": "Etibarnamələr, andlı bəyanatlar və uyğunluq sənədlərinin hazırlanması və notarial təsdiqi;",
+    "service.legal.offer4": "Yaşayış icazələrinin təsdiqlənməsi üçün AIMA (Portuqaliya Miqrasiya Agentliyi) ilə tam təmsilçilik;",
+    "service.legal.offer5": "Konsulluqda görüşlərin təyin olunması və biometrik prosedurlar üzrə istiqamətləndirmə;",
+    "service.legal.offer6": "Sənədlərin yenilənməsi, hüquqi sorğular və uyğunluq yoxlamaları üzrə davamlı dəstək.",
+
+    "service.legal.whyTitle": "Niyə bu vacibdir:",
+
+    "service.legal.why1": "Texniki səhvlər səbəbindən yaranan gecikmə və rədd hallarından yayınmaq;",
+    "service.legal.why2": "Sənədlərin Portuqaliya hüquqi standartlarına tam uyğunluğunu təmin etmək;",
+    "service.legal.why3": "Zaman itirməmək üçün bütün notarial, tərcümə və konsulluq mərhələlərini biz idarə edirik;",
+    "service.legal.why4": "Portuqaliya və Azərbaycan daxilində etibarlı hüquqi nümayəndəlik.",
+
+    "service.legal.footerText": "Hər forma. Hər möhür. Hər son tarix — hüquq komandamız tərəfindən idarə olunur.",
+
+
+
+    "service.network.title": "İcma və Peşəkar Şəbəkəyə İntegrasiya",
+    "service.network.subtitle": "Sadəcə köç etməyin — mənsub olun. Biz sizə Portuqaliyanın sosial, mədəni və peşəkar mühitinə inteqrasiya etməyə kömək edirik — beləliklə, siz özünüzü ziyarətçi kimi deyil, icmanın bir hissəsi kimi hiss edirsiniz.",
+    "service.network.description": "Biz sizə Portuqaliyanın sosial, mədəni və peşəkar mühitinə inteqrasiya etməyə kömək edirik — beləliklə, siz özünüzü ziyarətçi kimi deyil, icmanın bir hissəsi kimi hiss edirsiniz.",
+
+    "service.network.offerTitle": "Biz nə təklif edirik:",
+
+    "service.network.offer1": "Ekspat dairələri, diaspor icmaları və biznes assosiasiyalarına tanışlıqlar;",
+    "service.network.offer2": "Sənaye tədbirləri, startap mərkəzləri və investisiya forumlarına dəvətlər;",
+    "service.network.offer3": "İngilis dilli peşəkarlarla əlaqələr: həkimlər, hüquqşünaslar, mentorlar;",
+    "service.network.offer4": "Ailələr üçün dəstək: valideynlik qrupları, özəl məktəb icmaları, relokasiya görüşləri;",
+    "service.network.offer5": "Gündəlik həyatla bağlı məsləhətlər: harada yaşamalı, alış-veriş etməli, əlaqə qurmalı və inkişaf etməli.",
+
+    "service.network.benefitsTitle": "Üstünlüklər:",
+
+    "service.network.benefit1": "Ailələr və sahibkarlar üçün daha sürətli sosial adaptasiya;",
+    "service.network.benefit2": "Etibarlı peşəkar tövsiyələr — təcrübə yolu ilə deyil, doğrulanmış əlaqələrlə;",
+    "service.network.benefit3": "Həqiqi insan əlaqələri, biznesin inkişafı və şəxsi rifah üçün təməl yaradır;",
+    "service.network.benefit4": "İllərlə deyil, aylarla Portuqaliyada özünüzü evdə hiss edin.",
+
+
+
+    "service.tour.title": "Tur Paketi",
+    "service.tour.subtitle": "Portuqaliyanı turist kimi yox — gələcək eviniz kimi görün.",
+
+    "service.tour.includedTitle": "Nə daxildir:",
+
+    "service.tour.included1": "3–5 günlük bələdçi turu: Lissabon, Cascais, Porto, Setúbal və Algarve bölgələrini əhatə edir;",
+    "service.tour.included2": "Daşınmaz əmlaka baxışlar (yaşayış və investisiya yönümlü), məktəblər, klinikalar və məhəllələr;",
+    "service.tour.included3": "Bank görüşləri, daşınmaz əmlak təqdimatları və hüquqi konsultasiyalar;",
+    "service.tour.included4": "Ekspat ailələri, biznes sahibləri və relokasiya mütəxəssisləri ilə görüşlər;",
+    "service.tour.included5": "Hava limanından qarşılanma, otel tövsiyələri və istəyə görə şəxsi sürücü xidməti.",
+
+    "service.tour.benefitsTitle": "Üstünlüklər:",
+
+    "service.tour.benefit1": "İnvestisiya qərarını verməzdən əvvəl real təsəvvür əldə edin;",
+    "service.tour.benefit2": "Məktəb, yaşayış və səhiyyə seçimlərini şəxsən yoxlayın;",
+    "service.tour.benefit3": "Portuqaliyaya köçmüş insanlarla tanış olun və onların təcrübəsini öyrənin;",
+    "service.tour.benefit4": "Bütün logistika bizdədir — siz sadəcə kəşf edin və suallarınızı verin.",
+
+
+
     "visa.d7": "D7 Viza (Passiv Gəlir Vizası)",
     "visa.d7forwho1":
       "Passiv gəlirə sahib şəxslər: icarə, pensiya, royalti, faiz gəlirləri;",
@@ -305,84 +366,217 @@ const translations = {
     "gallery.community.desc": "Canlı mədəniyyət və isti cəmiyyət",
   },
   ru: {
-    'hero.title': 'Ваше путешествие в Португалию начинается здесь',
-    'hero.subtitle': 'Обеспечить, чтобы люди и семьи начали новую жизнь в Португалии — безопасно, законно и комфортно. Мы сопровождаем наших клиентов на каждом этапе — от подачи заявления на визу до полной адаптации — с индивидуальным подходом, учитывающим каждую потребность.',
-    'hero.vision': "Стать самым надёжным и профессиональным партнёром в сфере релокации и иммиграции во всём Европейском союзе. Мы не просто занимаемся оформлением документов — мы помогаем людям пройти через серьёзные жизненные перемены.",
-    'hero.cta': 'Иммиграционная стратегия',
-    "hero.ourvision": "Наше видение",
-    "hero.approadmap": "Решения для проживания – описание услуг",
+    
+  "hero.title": "Ваше путешествие в Португалию начинается здесь",
+  "hero.subtitle": "Наша миссия — обеспечить безопасное, законное и комфортное начало новой жизни в Португалии для частных лиц и семей. Мы сопровождаем клиентов на каждом этапе — от подачи визы до полной интеграции — предлагая индивидуальный подход под каждую потребность.",
+  "hero.vision": "Наша цель — стать самым надежным и профессиональным партнером в сфере релокации и иммиграции в ЕС. Мы не просто оформляем документы — мы сопровождаем людей в одном из важнейших этапов их жизни.",
+  "hero.cta": "Иммиграционная стратегия",
+  "hero.ourvision": "Наша Визия",
+  "hero.approadmap": "Решения для проживания – описание услуг",
 
-    // Navigation
+  "nav.home": "Главная",
+  "nav.services": "Услуги",
+  "nav.visas": "Визы",
+  "nav.investment": "Инвестиции",
+  "nav.education": "Образование",
+  "nav.contact": "Контакты",
 
-    "nav.home": "Главная",
-    "nav.services": "Услуги",
-    "nav.visas": "Визы",
-    "nav.investment": "Инвестиции",
-    "nav.education": "Образование",
-    "nav.contact": "Контакты",
-    // Facts
-    "facts.title": "Факты о Португалии",
-    "facts.safety": "7-я самая безопасная страна в мире",
-    "facts.europe": "3-я самая безопасная в Европе",
-    "facts.welcoming": "Одно из самых гостеприимных обществ для иммигрантов",
+  "facts.safety": "7-я самая безопасная страна в мире",
+  "facts.safety.desc": "Глобальный индекс мира 2024",
+  "facts.europe": "3-я по безопасности в Европе",
+  "facts.europe.desc": "Рейтинг безопасности Европы",
+  "facts.welcoming": "Самое гостеприимное общество",
+  "facts.welcoming.desc": "Европейское социальное исследование, 2022",
 
-    // Services
-    "services.title": "Наши Услуги",
-    "services.subtitle":
-      "Полный пакет услуг для помощи в процессе переезда в Португалию",
-    "service.education": "Ознакомление с системой образования",
-    "service.medical": "Ознакомление с системой здравоохранения",
-    "service.loan": "Содействие в получении ипотеки и кредитов",
-    "service.bankacc":
-      "Организация банковского обслуживания для частных лиц и компаний",
-    "service.realestate": "Консультации по вопросам недвижимости",
-    "service.investment": "Специально подобранные инвестиционные возможности",
-    "service.structuring": "Структурирование компаний и консультирование",
-    "service.legalconsular":
-      "Поддержка в оформлении юридических и консульских документов",
-    "service.community":
-      "Интеграция в местное сообщество и профессиональную среду",
-    "service.tour": "Туристический пакет",
+  "services.title": "Наши услуги",
+  "services.subtitle": "Полный пакет услуг, помогающий вам в процессе переезда в Португалию",
+  "service.education": "Консультация по образованию",
+  "service.medical": "Консультация по здравоохранению",
+  "service.bankacc": "Открытие личных и корпоративных банковских счетов",
+  "service.realestate": "Консультации по недвижимости",
+  "service.investment": "Специально отобранные инвестиционные возможности",
+  "service.structuring": "Корпоративное структурирование и консультации",
+  "service.legalconsular": "Поддержка в юридическом и консульском оформлении",
+  "service.community": "Интеграция в местное сообщество и профессиональные сети",
+  "service.tour": "Тур-пакет",
 
-    "education.title": "Образовательная ориентация",
-    "education.subtitle":
-      "Португалия предоставляет доступ к некоторым из самых престижных международных школ Европы. Эти школы открывают пути для поступления в университеты ЕС, в вузы Лиги Плюща в США, а также в ведущие университеты Великобритании.",
-    "education.title2": "Лучшие международные школы:",
-    "education.school1name": "St. Julian’s School",
-    "education.school1desc":
-      "одна из старейших британских школ в Европе (основана в 1932 году). Ее выпускники поступают в Оксфорд, Лондонскую школу экономики (LSE) и Университетский колледж Лондона (UCL).",
-    "education.school2name":
-      "Carlucci American International School of Lisbon (CAISL)",
-    "education.school2desc":
-      "школа, предлагающая программы международного бакалавриата (IB) и американский учебный план. Выпускники этой школы поступают в Гарвард, Массачусетский технологический институт (MIT) и Колумбийский университет.",
-    "education.school3name": "Oporto British School",
-    "education.school3desc":
-      "престижное учебное заведение на севере Португалии, аккредитованное Кембриджским университетом.",
+  "education.title": "Образовательное направление",
+  "education.subtitle": "Португалия предлагает доступ к одними из самых престижных международных школ Европы. Их выпускники поступают в университеты ЕС, американские Ivy League и ведущие вузы Великобритании.",
+  "education.title2": "Самые престижные международные школы:",
+  "education.school1name": "St. Julian’s School – одна из старейших британских школ в Европе (основана в 1932 году). Выпускники поступают в Оксфорд, LSE и UCL.",
+  "education.school2name": "Carlucci American International School of Lisbon (CAISL) – школа с программами IB и американским учебным планом. Выпускники поступают в Harvard, MIT и Columbia.",
+  "education.school3name": "Oporto British School – престижная школа на севере Португалии, аккредитованная Кембриджским университетом.",
 
-    "uni.title": "Университеты",
-    "uni.uni1name": "Лиссабонский университет",
-    "uni.uni1desc":
-      "занимает 262-е место в мировом рейтинге QS World University Rankings 2025.",
-    "uni.uni2name": "Университет NOVA в Лиссабоне",
-    "uni.uni2desc":
-      "входит в список “QS Top 50 Under 50”. Португалия считается одним из самых дружелюбных обществ для иммигрантов, с низким уровнем расизма и ксенофобии по сравнению с другими странами ЕС. Источник: European Social Survey, 2022",
-    "uni.uni3name": "Католический университет Португалии",
-    "uni.uni3desc":
-      "включён в глобальный рейтинг Financial Times за свои программы в области бизнеса и права. Доступны бакалаврские и магистерские программы на английском языке: медицина, наука о данных, инженерия и другие направления.",
+  "education.schoolsoffertitle": "Эти школы предлагают:",
+  "education.schoolsoffer1": "IB, британские и американские дипломные программы",
+  "education.schoolsoffer2": "Обучение 100% на английском языке",
+  "education.schoolsoffer3": "Консультации по поступлению в университеты и поддержка подготовки к AP/SAT/IB",
+  "education.schoolsoffer4": "Более 90% выпускников поступают в университеты Великобритании, США и ЕС",
 
-    "health.title": "Ориентация в системе здравоохранения",
-    "health.subtitle":
-      "Согласно статистике OECD, Португалия обладает одной из лучших государственных систем здравоохранения в Европе — а её частная сеть ещё более развита.",
-    "health.title2": "Ведущие частные госпитальные сети:",
-    "health.hosp1name": "Hospital da Luz",
-    "health.hosp1desc":
-      "Современные клиники с международным обслуживанием пациентов.",
-    "health.hosp2name": "CUF Saúde",
-    "health.hosp2desc":
-      "Более 20 частных больниц по всей Португалии с высоким уровнем удовлетворённости пациентов.",
-    "health.hosp3name": "Lusíadas Saúde",
-    "health.hosp3desc":
-      "Сеть, аккредитованная JCI, соответствующая международным стандартам медицинского обслуживания.",
+  "uni.title": "Университеты",
+  "uni.uni1name": "Лиссабонский университет",
+  "uni.uni1desc": "Занимает 262 место в рейтинге QS 2025.",
+  "uni.uni2name": "Университет NOVA Лиссабона",
+  "uni.uni2desc": "Входит в список “QS Top 50 Under 50”. Португалия считается одной из самых дружелюбных стран Европы для иммигрантов — уровень расизма и ксенофобии значительно ниже, чем в других странах ЕС. Источник: ESS 2022.",
+  "uni.uni3name": "Католический университет Португалии",
+  "uni.uni3desc": "Высоко оценен в глобальном рейтинге Financial Times за бизнес и право. Доступны англоязычные программы по медицине, data science, инженерии и другим направлениям.",
+
+  "health.title": "Руководство по системе здравоохранения",
+  "health.subtitle": "По данным OECD Health Statistics, Португалия обладает одной из лучших государственных систем здравоохранения в Европе, а частный сектор развит еще сильнее.",
+  "health.title2": "Ведущие частные больничные сети",
+  "health.subtitle2": "Топ частных медицинских сетей",
+  "health.hosp1name": "Hospital da Luz",
+  "health.hosp1desc": "Современные клиники с оборудованием последнего поколения и услугами для международных пациентов.",
+  "health.hosp2name": "CUF Saúde",
+  "health.hosp2desc": "Более 20 частных больниц по всей стране, высокие показатели удовлетворенности пациентов.",
+  "health.hosp3name": "Lusíadas Saúde",
+  "health.hosp3desc": "Имеет международную аккредитацию JCI и соответствует мировым медицинским стандартам.",
+
+  "health.service": "Надежные, доступные и быстрые услуги:",
+  "health.service1": "По рейтингу OECD Португалия входит в топ-10 стран Европы по качеству медицины.",
+  "health.service2": "Ключевые частные сети: Hospital da Luz, CUF, Lusíadas (аккредитация JCI).",
+  "health.service3": "Англоязычные врачи, передовая диагностика, приоритетное обслуживание экспатов — отсутствие очередей в основных специализациях.",
+  "health.service4": "Международные страховые пакеты для семей.",
+  "health.service5": "И интегрированная система сопровождения: регистрация, подбор планов и поддержка на всех этапах.",
+
+  "service.loan.title": "Содействие в ипотеке и кредитовании",
+  "service.loan.subtitle": "Некоторые клиенты использовали местные бизнес-кредиты для запуска бизнеса в Португалии и одновременно подали на ВНЖ — превратив переезд в выгодную инвестицию.",
+  "service.loan.service1": "Доступ к стартовому или расширенному капиталу через бизнес-кредитные программы.",
+  "service.loan.service2": "Мы подготавливаем бизнес-план, финансовые прогнозы и презентации для банков.",
+  "service.loan.service3": "Помогаем воспользоваться государственными грантами, льготными кредитами и отраслевыми программами финансирования.",
+  "service.loan.service4": "Полное юридическое сопровождение для залога, гарантий и графика платежей.",
+  "service.loan.service5": "Подходит для различных сфер: от кафе и недвижимости до IT-стартапов и консалтинга.",
+  "service.loan.business": "Для владельцев бизнеса",
+  "service.loan.businessdesc": "Разумный способ приобрести недвижимость или начать бизнес в Португалии — без риска потери ликвидности.",
+  "service.loan.whytitle": "Почему это важно?",
+  "service.loan.whydesc": "Большинство клиентов думают, что для покупки жилья или открытия компании в Португалии требуются сотни тысяч евро первоначального капитала. Но это не так. С правильной подготовкой местные банки могут финансировать до 70% проекта — сохраняя вашу ликвидность и помогая получить ВНЖ. Хотите купить квартиру у моря в Лиссабоне или открыть бутик-отель в Порту? Мы сопровождаем вас на каждом этапе ипотечного процесса — юридически, финансово и стратегически.",
+
+  "service.business.title": "Для владельцев бизнеса",
+  "service.business.subtitle": "Вам не нужно выбирать между иммиграцией и инвестициями — с нами вы можете реализовать оба направления безопасно и стратегически.",
+  "service.business.difference.title": "Что нас отличает?",
+  "service.business.difference.point1": "Прямые связи с ведущими банками Португалии — значительно ускоряют получение одобрения.",
+  "service.business.difference.point2": "Структурирование кредитов в соответствии с иммиграционными целями.",
+  "service.business.difference.point3": "Полная двуязычная поддержка при переговорах, подписании контрактов и перечислении средств.",
+  "service.business.difference.point4": "Наша команда координирует кредит, визу, недвижимость и бизнес-проект в едином процессе.",
+
+  "service.business.storytitle": "Истории успеха клиентов:",
+  "service.business.story.point1": "Семья из 4 человек приобрела дом в Кашкайше за €420,000, заплатив всего €126,000 первоначально — и получила Golden Visa.",
+  "service.business.story.point2": "Азербайджанский предприниматель получил льготный кредит под 0% на сумму €100,000 сроком на 5 лет для ритейл-проекта.",
+  "service.business.story.point3": "Наши клиенты получают одобрение в течение 15–20 дней благодаря нашей репутации и предварительной проверке документов.",
+
+  "service.bankacc.title": "Открытие Личных и Корпоративных Банковских Счетов",
+  "service.bankacc.subtitle": "Почему это важно? Открытие счета в Португалии критически важно как для ВНЖ, так и для ежедневных финансовых операций.",
+  "service.bankacc.step1": "Требуется для Golden Visa и D7;",
+  "service.bankacc.step2": "Подтверждает источник дохода и финансовую устойчивость;",
+  "service.bankacc.step3": "Позволяет оплачивать недвижимость, коммунальные услуги и страховки;",
+  "service.bankacc.step4": "Необходимо для бизнес-операций — платежей, зарплат и налоговой отчетности.",
+
+  "service.bankacc.offer.title": "Личные счета — что мы предлагаем:",
+  "service.bankacc.offerstep1": "Быстрое открытие личных и корпоративных счетов;",
+  "service.bankacc.offerstep2": "Прямые связи с ведущими банками: Millennium BCP, Novo Banco, Santander;",
+  "service.bankacc.offerstep3": "Полная подготовка KYC-документов;",
+  "service.bankacc.offerstep4": "Предварительно назначенные англоязычные менеджеры обслуживания;",
+  "service.bankacc.offerstep5": "Корпоративные банковские решения, полностью совместимые с регистрацией компании и бухгалтерией;",
+  "service.bankacc.offerstep6": "Стандартный срок: 5–7 рабочих дней.",
+
+  "service.realestate.title": "Руководство по недвижимости",
+  "service.realestate.subtitle": "Покупайте умно, живите лучше — создавайте портфель, который приносит доход даже во сне.",
+  "service.realestate.title2": "Почему стоит инвестировать в недвижимость Португалии?",
+  "service.realestate.point1": "Португалия — один из самых привлекательных рынков Европы для жизни и инвестиций.",
+  "service.realestate.point2": "Ищете ли вы жилье, дом для отдыха или объект под аренду — наша команда поможет найти подходящий вариант, оценить его и сопровождать сделку полностью.",
+  "service.realestate.offer.title": "Что мы обеспечиваем:",
+  "service.realestate.offerstep1": "Подбор объектов, соответствующих требованиям ВНЖ (Golden Visa, аренда для D7 и др.);",
+  "service.realestate.offerstep2": "Поиск по Лиссабону, Порту, Алгарве, Кашкайшу, Сетубалу и растущим ценовым зонам;",
+  "service.realestate.offerstep3": "Доступ к закрытым предложениям, застройщикам и дисконтным активам;",
+  "service.realestate.offerstep4": "Оценка долгосрочной доходности, роста стоимости и ликвидности;",
+  "service.realestate.offerstep5": "Организация просмотров, переговоры, подача предложений, юридическая проверка и регистрация;",
+  "service.realestate.offerstep6": "Полное сопровождение процесса: резерв → CPCV → нотариус → реестр;",
+  "service.realestate.offerstep7": "Консультации по buy-to-let, co-living, туристической лицензии и управлению.",
+
+  "service.investment.special.title": "Специально отобранные инвестиционные возможности",
+  "service.investment.special.subtitle": "«Мы не хотели заниматься арендаторами и управлением недвижимостью. Фондовая инвестиция дала нам чистый инвестиционный путь и простой способ получить ВНЖ». — Клиент из Центральной Азии",
+  "service.investment.special.question": "Почему фондовые инвестиции для Golden Visa?",
+  "service.investment.special.point1": "Государственно одобренные фонды частного капитала и венчурные фонды;",
+  "service.investment.special.point2": "Аудируемые структуры под надзором CMVM — Комиссии по рынку ценных бумаг Португалии;",
+  "service.investment.special.point3": "Полное соответствие законодательству Golden Visa;",
+  "service.investment.special.point4": "Диверсификация в технологии, недвижимость, энергетику и инновации;",
+  "service.investment.special.point5": "Пассивный доход и потенциал роста капитала;",
+  "service.investment.special.point6": "Минимальные требования физического пребывания для всей семьи.",
+
+  "service.investment.special.benefit.title": "Основные преимущества:",
+  "service.investment.special.benefit1": "Нет необходимости покупать недвижимость;",
+  "service.investment.special.benefit2": "Нет ответственности за управление, налоги или аренду;",
+  "service.investment.special.benefit3": "Полностью законный путь к Golden Visa и гражданству за 5 лет;",
+  "service.investment.special.benefit4": "Управление лицензированными профессионалами с доказанной доходностью;",
+  "service.investment.special.benefit5": "В некоторых случаях ранние выплаты возможны уже через 6–12 месяцев.",
+
+  "service.corporate.title": "Корпоративное структурирование и консультации",
+  "service.corporate.subtitle": "Ваш путь к созданию полностью законного бизнеса в ЕС. Хотите открыть новую компанию или расширить существующий бизнес — мы обеспечим полный юридический и операционный фундамент для успеха в Португалии.",
+  "service.corporate.offer": "Что мы предлагаем:",
+  "service.corporate.offerstep1": "Регистрация компании (LDA, SA или филиал) — с полной юридической соответствием;",
+  "service.corporate.offerstep2": "Стратегическое структурирование бизнеса для налоговой оптимизации и соответствия Golden Visa;",
+  "service.corporate.offerstep3": "Полное оформление NIF, НДС, социальной защиты и корпоративного банковского счета;",
+  "service.corporate.offerstep4": "Консультации по трудовому праву, защите интеллектуальной собственности и лицензированию бизнеса;",
+  "service.corporate.offerstep5": "Связи с надежными бухгалтерами, юристами и финансовыми консультантами.",
+  "service.corporate.whyimportant": "Почему это важно:",
+  "service.corporate.whyimportantpoint1": "Постройте бизнес, который квалифицирует вас для Golden Visa или ВНЖ D7;",
+  "service.corporate.whyimportantpoint2": "Полностью законная деятельность с первого дня — избегайте проблем соответствия;",
+  "service.corporate.whyimportantpoint3": "Налоговая оптимизация через умное структурирование;",
+  "service.corporate.whyimportantpoint4": "Возможность расширения бизнеса локально или на рынке ЕС.",
+
+  "service.legal.title": "Юридическая и консульская поддержка",
+  "service.legal.offerTitle": "Что мы предлагаем:",
+  "service.legal.offer1": "Подготовка всех необходимых документов для визы, ВНЖ и гражданства;",
+  "service.legal.offer2": "Заверенные переводы, апостиль и координация с посольствами;",
+  "service.legal.offer3": "Подготовка и нотариальное заверение доверенностей, заявлений под присягой и документов соответствия;",
+  "service.legal.offer4": "Полное представительство в AIMA (иммиграционное агентство Португалии) для одобрения ВНЖ;",
+  "service.legal.offer5": "Назначение консульских встреч и поддержка по биометрии;",
+  "service.legal.offer6": "Постоянная поддержка по продлению документов, юридическим вопросам и проверкам соответствия.",
+
+  "service.legal.whyTitle": "Почему это важно:",
+  "service.legal.why1": "Избегайте задержек и отказов из-за технических ошибок;",
+  "service.legal.why2": "Ваши документы будут соответствовать юридическим стандартам Португалии;",
+  "service.legal.why3": "Экономьте время — мы берем на себя весь нотариальный, переводческий и консульский процесс;",
+  "service.legal.why4": "Надежное юридическое представительство в Португалии и Азербайджане.",
+
+  "service.legal.footerText": "Каждая форма. Каждый штамп. Каждый срок — под контролем нашей юридической команды.",
+
+  "service.network.title": "Интеграция в сообщество и профессиональные сети",
+  "service.network.subtitle": "Не просто переезжайте — станьте частью сообщества.",
+  "service.network.description": "Мы помогаем вам интегрироваться в социальную, культурную и профессиональную среду Португалии — чтобы вы чувствовали себя не гостем, а частью местного общества.",
+
+  "service.network.offerTitle": "Что мы предлагаем:",
+  "service.network.offer1": "Знакомства с экспат-кругами, диаспорами и бизнес-ассоциациями;",
+  "service.network.offer2": "Приглашения на отраслевые мероприятия, стартап-хабы и инвестиционные форумы;",
+  "service.network.offer3": "Контакты с англоязычными специалистами: врачи, юристы, наставники;",
+  "service.network.offer4": "Поддержка семей: клубы для родителей, частные школьные сообщества, встречи по релокации;",
+  "service.network.offer5": "Советы по повседневной жизни: где жить, делать покупки, строить связи и развиваться.",
+
+  "service.network.benefitsTitle": "Преимущества:",
+  "service.network.benefit1": "Быстрая социальная адаптация для семей и предпринимателей;",
+  "service.network.benefit2": "Достоверные профессиональные рекомендации — без проб и ошибок;",
+  "service.network.benefit3": "Настоящие человеческие связи — основа для развития бизнеса и личного благополучия;",
+  "service.network.benefit4": "Чувствуйте себя как дома не через годы, а через месяцы.",
+
+  "service.tour.title": "Тур-пакет",
+  "service.tour.subtitle": "Посмотрите на Португалию не как турист — а как на будущий дом.",
+
+  "service.tour.includedTitle": "Что входит:",
+
+  "service.tour.included1": "3–5-дневный тур с гидом: Лиссабон, Кашкайш, Порту, Сетубал и Алгарве;",
+  "service.tour.included2": "Объезды недвижимости (жилой и инвестиционной), школы, клиники и районы;",
+  "service.tour.included3": "Банковские встречи, презентации недвижимости и юридические консультации;",
+  "service.tour.included4": "Встречи с экспат-семьями, владельцами бизнеса и специалистами по релокации;",
+  "service.tour.included5": "Трансфер из аэропорта, рекомендации по отелям и по желанию — личный водитель.",
+
+  "service.tour.benefitsTitle": "Преимущества:",
+  "service.tour.benefit1": "Получите реальное понимание перед инвестированием;",
+  "service.tour.benefit2": "Лично оцените варианты школ, жилья и здравоохранения;",
+  "service.tour.benefit3": "Познакомьтесь с людьми, которые уже переехали, и узнайте их опыт;",
+  "service.tour.benefit4": "Мы берем на себя всю логистику — вы просто исследуйте и задавайте вопросы.",
+
+
+
 
     "visa.d7": "Виза D7 (Пассивный Доход)",
     "visa.d7forwho1":

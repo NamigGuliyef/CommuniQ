@@ -32,8 +32,6 @@ import tasis from "@/assets/TASIS.jpg";
 import banking from "@/assets/Individual_Corporate_Banking_Setup.png";
 import investment from "@/assets/investment_special.png";
 
-
-
 const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
   const { t } = useLanguage();
   const [expandedCard, setExpandedCard] = useState<number | null>(null);
@@ -259,7 +257,6 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
                 {t("service.loan.whydesc")}
                 {/* Əksər müştərilər düşünür ki... */}
               </p>
-
             </div>
           </div>
         );
@@ -267,32 +264,38 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
       case 3:
         return (
           <div className="space-y-10">
-
             {/* ==== BUSINESS OWNERS SECTION ==== */}
             <div className="space-y-4">
-
               <h4 className="font-semibold text-lg text-foreground">
                 {t("service.business.difference.title")}
               </h4>
 
               <ul className="space-y-2 text-sm leading-relaxed">
                 <li className="flex items-start gap-2">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.business.difference.point1")}</span>
                 </li>
 
                 <li className="flex items-start gap-2">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.business.difference.point2")}</span>
                 </li>
 
                 <li className="flex items-start gap-2">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.business.difference.point3")}</span>
                 </li>
 
                 <li className="flex items-start gap-2">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.business.difference.point4")}</span>
                 </li>
               </ul>
@@ -306,31 +309,33 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
 
               <ul className="space-y-2 text-sm leading-relaxed">
                 <li className="flex items-start gap-2">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.business.story.point1")}</span>
                 </li>
 
                 <li className="flex items-start gap-2">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.business.story.point2")}</span>
                 </li>
 
                 <li className="flex items-start gap-2">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.business.story.point3")}</span>
                 </li>
               </ul>
             </div>
-
           </div>
         );
 
-
       case 4:
-
         return (
           <div className="space-y-10">
-
             {/* ==== TOP IMAGE SECTION (şəkildəki şahmat blokları) ==== */}
             <div className="w-full flex justify-center">
               <img
@@ -340,28 +345,34 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
               />
             </div>
 
-
             {/* ==== WHY IT MATTERS SECTION ==== */}
             <div className="space-y-4">
-
               <ul className="space-y-2 text-sm leading-relaxed">
                 <li className="flex items-start gap-2">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.bankacc.step1")}</span>
                 </li>
 
                 <li className="flex items-start gap-2">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.bankacc.step2")}</span>
                 </li>
 
                 <li className="flex items-start gap-2">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.bankacc.step3")}</span>
                 </li>
 
                 <li className="flex items-start gap-2">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.bankacc.step4")}</span>
                 </li>
               </ul>
@@ -370,49 +381,60 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
             {/* ==== WHAT WE OFFER SECTION ==== */}
             <div className="space-y-4">
               <h3 className="font-bold text-xl text-foreground">
-                {t("service.bankacc.offer.title")} {/* Individual Accounts – What We Offer */}
+                {t("service.bankacc.offer.title")}{" "}
+                {/* Individual Accounts – What We Offer */}
               </h3>
 
               <ul className="space-y-2 text-sm leading-relaxed">
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.bankacc.offerstep1")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.bankacc.offerstep2")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.bankacc.offerstep3")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.bankacc.offerstep4")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.bankacc.offerstep5")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.bankacc.offerstep6")}</span>
                 </li>
               </ul>
             </div>
-
           </div>
         );
 
       case 5:
         return (
           <div className="space-y-10">
-
             {/* ==== TOP TITLE ==== */}
             <h2 className="text-2xl font-bold text-[#1A4A2E] text-center">
               {t("service.realestate.title2")} {/* Real Estate Guidance */}
@@ -420,15 +442,18 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
 
             {/* ==== WHY REAL ESTATE SECTION ==== */}
             <div className="space-y-4">
-
               <ul className="space-y-2 text-sm leading-relaxed text-muted-foreground">
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.realestate.point1")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.realestate.point2")}</span>
                 </li>
               </ul>
@@ -442,88 +467,109 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
             {/* ==== WE HELP YOU SECTION ==== */}
             <div className="space-y-2 text-sm leading-relaxed text-muted-foreground">
               <ul className="space-y-2">
-
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.realestate.offerstep1")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.realestate.offerstep2")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.realestate.offerstep3")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.realestate.offerstep4")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.realestate.offerstep5")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.realestate.offerstep6")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.realestate.offerstep7")}</span>
                 </li>
-
               </ul>
             </div>
-
           </div>
         );
 
       case 6:
         return (
           <div className="space-y-10">
-
-
-
             {/* ==== WHY FUND-BASED SECTION ==== */}
             <div className="space-y-4">
               <h3 className="font-semibold text-lg text-foreground">
-                {t("service.investment.special.question")} {/* Why fund-based Golden Visa investments? */}
+                {t("service.investment.special.question")}{" "}
+                {/* Why fund-based Golden Visa investments? */}
               </h3>
 
               <ul className="space-y-2 text-sm leading-relaxed text-muted-foreground">
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.investment.special.point1")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.investment.special.point2")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.investment.special.point3")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.investment.special.point4")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.investment.special.point5")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.investment.special.point6")}</span>
                 </li>
               </ul>
@@ -531,56 +577,59 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
 
             {/* ==== RIGHT-SIDE IMAGE BLOCK (kitab şəkilləri) ==== */}
             <div className="w-full flex justify-end pr-4">
-              <img
-                src={investment}
-                alt="Investment Visual"
-                className=" "
-              />
+              <img src={investment} alt="Investment Visual" className=" " />
             </div>
 
             {/* ==== TOP BENEFITS SECTION ==== */}
             <div className="space-y-4">
               <h3 className="font-semibold text-lg text-foreground">
-                {t("service.investment.special.benefit.title")} {/* Top Benefits */}
+                {t("service.investment.special.benefit.title")}{" "}
+                {/* Top Benefits */}
               </h3>
 
               <ul className="space-y-2 text-sm leading-relaxed text-muted-foreground">
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.investment.special.benefit1")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.investment.special.benefit2")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.investment.special.benefit3")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.investment.special.benefit4")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.investment.special.benefit5")}</span>
                 </li>
               </ul>
             </div>
-
           </div>
         );
 
       case 7:
-
         return (
           <div className="space-y-10">
-
-       
             {/* ==== WHAT WE OFFER SECTION ==== */}
             <h3 className="font-semibold text-lg text-foreground">
               {t("service.corporate.offer")} {/* What We Offer? */}
@@ -588,32 +637,40 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
 
             <div className="space-y-4">
               <ul className="space-y-2 text-sm leading-relaxed text-muted-foreground">
-
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.corporate.offerstep1")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.corporate.offerstep2")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.corporate.offerstep3")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.corporate.offerstep4")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.corporate.offerstep5")}</span>
                 </li>
-
               </ul>
             </div>
 
@@ -624,34 +681,302 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
 
             <div className="space-y-2 text-sm leading-relaxed text-muted-foreground">
               <ul className="space-y-2">
-
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.corporate.whyimportantpoint1")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.corporate.whyimportantpoint2")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.corporate.whyimportantpoint3")}</span>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <span className="text-portugal-gold text-lg leading-none">•</span>
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
                   <span>{t("service.corporate.whyimportantpoint4")}</span>
                 </li>
-
               </ul>
             </div>
-
           </div>
         );
 
+      case 8:
+        return (
+          <div className="space-y-10">
+            {/* ==== WHAT WE OFFER ==== */}
+            <h3 className="font-semibold text-lg text-foreground">
+              {t("service.legal.offerTitle")} {/* What We Offer? */}
+            </h3>
 
+            <div className="space-y-4">
+              <ul className="space-y-2 text-sm leading-relaxed text-muted-foreground">
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.legal.offer1")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.legal.offer2")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.legal.offer3")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.legal.offer4")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.legal.offer5")}</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* ==== WHY IT MATTERS ==== */}
+            <h3 className="font-semibold text-lg text-foreground">
+              {t("service.legal.whyTitle")} {/* Why it matters? */}
+            </h3>
+
+            <div className="space-y-2 text-sm leading-relaxed text-muted-foreground">
+              <ul className="space-y-2">
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.legal.why1")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.legal.why2")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.legal.why3")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.legal.why4")}</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* ==== FOOTER SENTENCE (italic) ==== */}
+            <p className="text-center italic text-sm text-muted-foreground">
+              {t("service.legal.footerText")}
+              {/* Every form. Every stamp. Every deadline — handled by our legal team. */}
+            </p>
+          </div>
+        );
+
+      case 9:
+        return (
+          <div className="space-y-10">
+            {/* ==== WHAT WE OFFER ==== */}
+            <h3 className="font-semibold text-lg text-foreground">
+              {t("service.network.offerTitle")} {/* What We Offer? */}
+            </h3>
+
+            <div className="space-y-4">
+              <ul className="space-y-2 text-sm leading-relaxed text-muted-foreground">
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.network.offer1")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.network.offer2")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.network.offer3")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.network.offer4")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.network.offer5")}</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* ==== BENEFITS SECTION ==== */}
+            <h3 className="font-semibold text-lg text-foreground">
+              {t("service.network.benefitsTitle")} {/* Benefits: */}
+            </h3>
+
+            <div className="space-y-2 text-sm leading-relaxed text-muted-foreground">
+              <ul className="space-y-2">
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.network.benefit1")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.network.benefit2")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.network.benefit3")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.network.benefit4")}</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        );
+
+      case 10:
+        return (
+          <div className="space-y-10">
+
+            {/* ==== WHAT'S INCLUDED ==== */}
+            <h3 className="font-semibold text-lg text-foreground">
+              {t("service.tour.includedTitle")} {/* What's Included? */}
+            </h3>
+
+            <div className="space-y-4">
+              <ul className="space-y-2 text-sm leading-relaxed text-muted-foreground">
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.tour.included1")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.tour.included2")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.tour.included3")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.tour.included4")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.tour.included5")}</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* ==== BENEFITS SECTION ==== */}
+            <h3 className="font-semibold text-lg text-foreground">
+              {t("service.tour.benefitsTitle")} {/* Benefits: */}
+            </h3>
+
+            <div className="space-y-2 text-sm leading-relaxed text-muted-foreground">
+              <ul className="space-y-2">
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.tour.benefit1")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.tour.benefit2")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.tour.benefit3")}</span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="text-portugal-gold text-lg leading-none">
+                    •
+                  </span>
+                  <span>{t("service.tour.benefit4")}</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        );
 
       default:
         return (
@@ -681,54 +1006,58 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
     {
       icon: GraduationCap,
       title: t("education.title"),
-      description: t("education.subtitle")
+      description: t("education.subtitle"),
     },
     {
       icon: Heart,
       title: t("health.title"),
-      description: t("health.subtitle")
+      description: t("health.subtitle"),
     },
     {
       icon: CreditCard,
       title: t("service.loan.title"),
-      description: t("service.loan.subtitle")
+      description: t("service.loan.subtitle"),
     },
     {
       icon: Building,
       title: t("service.business.title"),
-      description: t("service.business.subtitle")
+      description: t("service.business.subtitle"),
     },
     {
       icon: Home,
       title: t("service.bankacc.title"),
-      description: t("service.bankacc.subtitle")
+      description: t("service.bankacc.subtitle"),
     },
     {
       icon: TrendingUp,
       title: t("service.realestate.title"),
-      description: t("service.realestate.subtitle")
+      description: t("service.realestate.subtitle"),
     },
     {
       icon: Scale,
       title: t("service.investment.special.title"),
-      description: t("service.investment.special.subtitle")
+      description: t("service.investment.special.subtitle"),
     },
     {
       icon: FileText,
       title: t("service.corporate.title"),
-      description: t("service.corporate.subtitle")
-    },  
+      description: t("service.corporate.subtitle"),
+    },
     {
       icon: Users,
-      title: t("service.community.title"),
-      description: t("service.community.subtitle")
+      title: t("service.legal.title"),
+      description: t("service.legal.footerText"),
+    },
+    {
+      icon: MapPin,
+      title: t("service.network.title"),
+      description: t("service.network.subtitle"),
     },
     {
       icon: MapPin,
       title: t("service.tour.title"),
-      description: t("service.tour.subtitle")
-    }
-
+      description: t("service.tour.subtitle"),
+    },
   ];
 
   return (
@@ -773,8 +1102,9 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
             return (
               <Card
                 key={index}
-                className={`relative transition-all duration-500 ease-out border-0 bg-gradient-to-br from-card via-card to-card/90 shadow-lg cursor-pointer transform-gpu ${isExpanded ? "z-20" : "hover:shadow-xl hover:scale-[1.02]"
-                  }`}
+                className={`relative transition-all duration-500 ease-out border-0 bg-gradient-to-br from-card via-card to-card/90 shadow-lg cursor-pointer transform-gpu ${
+                  isExpanded ? "z-20" : "hover:shadow-xl hover:scale-[1.02]"
+                }`}
                 onMouseEnter={() => setExpandedCard(index)}
                 onMouseLeave={() => setExpandedCard(null)}
                 style={{ minHeight: "200px" }}
@@ -784,8 +1114,9 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
                     <IconComponent className="w-7 h-7 text-white" />
                   </div>
                   <CardTitle
-                    className={`text-xl transition-colors duration-300 ${isExpanded ? "text-primary" : "text-foreground"
-                      }`}
+                    className={`text-xl transition-colors duration-300 ${
+                      isExpanded ? "text-primary" : "text-foreground"
+                    }`}
                   >
                     {service.title}
                   </CardTitle>
@@ -807,10 +1138,11 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
                 )}
                 {cartStyle === 1 && (
                   <div
-                    className={`absolute inset-0 transition-all duration-500 ease-out overflow-y-auto rounded-xl bg-gradient-to-br from-tile-cream/95 to-background/95 p-6 ${isExpanded
-                      ? "opacity-100 translate-y-0"
-                      : "opacity-0 pointer-events-none translate-y-4"
-                      }`}
+                    className={`absolute inset-0 transition-all duration-500 ease-out overflow-y-auto rounded-xl bg-gradient-to-br from-tile-cream/95 to-background/95 p-6 ${
+                      isExpanded
+                        ? "opacity-100 translate-y-0"
+                        : "opacity-0 pointer-events-none translate-y-4"
+                    }`}
                   >
                     {getDetailedContent(index)}
                   </div>

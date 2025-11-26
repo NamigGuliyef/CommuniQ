@@ -91,51 +91,63 @@ const EducationSection = () => {
         </div>
 
         {/* International Schools Section */}
-        <div className="mb-16">
-          <h3 className="text-3xl font-bold text-primary mb-6 text-center">{t('education.title2')}</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {schools.map((school, index) => {
-              const IconComponent = school.icon;
-              return (
-                <Card
-                  key={index}
-                  className="hover:shadow-xl hover:scale-105 transition-all duration-300 overflow-hidden group border-0 bg-gradient-to-br from-card via-card to-card/90 shadow-lg"
-                >
-                  <div className="h-48 relative overflow-hidden">
-                    <img
-                      src={school.image}
-                      alt={school.name}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-black bg-opacity-45 group-hover:opacity-0 transition-opacity duration-500 pointer-events-none"></div>
-                  </div>
+       <div className="mb-16">
+  <h3 className="text-3xl font-bold text-primary mb-10 text-center">
+    {t('education.title2')}
+  </h3>
 
-                  <CardHeader className="pb-3">
-                    <div className="flex items-center gap-3">
-                      <div className="w-12 h-12 bg-gradient-to-br from-primary via-ocean to-primary/80 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-shadow duration-300">
-                        <IconComponent className="w-6 h-6 text-white" />
-                      </div>
-                      <div className="flex-1">
-                        <CardTitle className=" text-xl text-foreground group-hover:text-primary transition-colors duration-300" style={{ minHeight: 60 }}>
-                          {school.name}
-                        </CardTitle>
-                        <div className="text-sm text-portugal-gold font-semibold bg-portugal-gold/10 px-2 py-1 rounded-full mt-1 inline-block">
-                          {school.ranking}
-                        </div>
-                      </div>
-                    </div>
-                  </CardHeader>
-
-                  <CardContent>
-                    <CardDescription className="text-muted-foreground">
-                      {school.description}
-                    </CardDescription>
-                  </CardContent>
-                </Card>
-              );
-            })}
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+    {schools.map((school, index) => {
+      const IconComponent = school.icon;
+      return (
+        <Card
+          key={index}
+          className="overflow-hidden group border-0 bg-white rounded-xl shadow-md hover:shadow-xl hover:scale-[1.03] transition-all duration-300"
+        >
+          {/* IMAGE */}
+          <div className="h-48 relative overflow-hidden">
+            <img
+              src={school.image}
+              alt={school.name}
+              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+            />
+            <div className="absolute inset-0 bg-black/40 group-hover:bg-black/0 transition duration-500"></div>
           </div>
-        </div>
+
+          {/* HEADER */}
+          <CardHeader className="pb-0">
+            <div className="flex items-start gap-3">
+              {/* ICON */}
+              <div className="w-12 h-12 bg-primary/90 rounded-xl flex items-center justify-center shadow-md">
+                <IconComponent className="w-6 h-6 text-white" />
+              </div>
+
+              <div className="flex-1 space-y-1">
+                {/* TITLE */}
+                <CardTitle className="text-lg font-semibold text-foreground leading-tight">
+                  {school.name}
+                </CardTitle>
+
+                {/* BADGE */}
+                <span className="text-xs text-portugal-gold font-semibold bg-portugal-gold/10 px-2 py-1 rounded-full inline-block">
+                  {school.ranking}
+                </span>
+              </div>
+            </div>
+          </CardHeader>
+
+          {/* DESCRIPTION */}
+          <CardContent className="pt-4 pb-6">
+            <CardDescription className="text-muted-foreground leading-relaxed text-sm">
+              {school.description}
+            </CardDescription>
+          </CardContent>
+        </Card>
+      );
+    })}
+  </div>
+</div>
+
 
         {/* Universities Section */}
         <div>
