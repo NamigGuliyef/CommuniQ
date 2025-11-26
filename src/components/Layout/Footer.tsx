@@ -22,7 +22,7 @@ const Footer = () => {
               <span className="text-xl font-bold">CommuniQ</span>
             </div>
             <p className="text-primary-foreground/80 mb-6">
-              Your trusted partner for Portugal immigration and relocation services.
+              {t('footer.tagline')} 
             </p>
             <WeatherTime />
           </div>
@@ -31,12 +31,12 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">{t('services.title')}</h3>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
-              <li>Golden Visa Program</li>
-              <li>D7 Visa Support</li>
-              <li>Real Estate Guidance</li>
-              <li>Banking Setup</li>
-              <li>Education Services</li>
-              <li>Healthcare Orientation</li>
+              <li>{t('footer.services1')}</li>
+              <li>{t('footer.services2')}</li>
+              <li>{t('footer.services3')}</li>
+              <li>{t('footer.services4')}</li>
+              <li>{t('footer.services5')}</li>
+              <li>{t('footer.services6')}</li>
             </ul>
           </div>
 
@@ -80,7 +80,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm text-primary-foreground/60">
           <p>
-            &copy; 2025 CommuniQ.com. All rights reserved.{' '}
+            &copy; 2025 CommuniQ.com. {t('footer.rights')}.{' '}
             <a
               href="https://techub.az"
               target="_blank"

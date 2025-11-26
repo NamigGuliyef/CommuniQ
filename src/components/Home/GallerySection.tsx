@@ -118,7 +118,7 @@ const GallerySection = () => {
             {t('gallery.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Discover the beauty, culture, and lifestyle that await you in Portugal
+           {t('gallery.subtitle')}
           </p>
         </div>
 
@@ -168,7 +168,7 @@ const GallerySection = () => {
                   timeZone: 'Europe/Lisbon', 
                   hour: '2-digit', 
                   minute: '2-digit' 
-                })} Lisbon time
+                })} {t('stats.time')}
               </div>
             </div>
           </div>

@@ -1,12 +1,10 @@
+import hospitalCuf from '@/assets/cuf_saude.jpg';
+import hospital_da_luz from '@/assets/hospital_da_luz.jpg';
+import hospitalLusiadas from '@/assets/lusíadas_saúde.jpg';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Heart, Shield, Star, Award } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage';
-import hospitalLuz from '@/assets/hospital-luz.jpg';
-import hospitalCuf from '@/assets/hospital-cuf.jpg';
-import hospitalLusiadas from '@/assets/hospital-lusiadas.jpg';
-import hospitalSaoJoao from '@/assets/hospital-sao-joao.jpg';
-import hospitalSantaMaria from '@/assets/hospital-santa-maria.jpg';
-import hospitalIpo from '@/assets/hospital-ipo.jpg';
+import { Heart, Shield, Star } from 'lucide-react';
+
 
 const HealthcareSection = () => {
   const { t } = useLanguage();
@@ -17,7 +15,7 @@ const HealthcareSection = () => {
       description: t('health.hosp1desc'),
       specialty: 'Premium International Care',
       icon: Heart,
-      image: hospitalLuz
+      image: hospital_da_luz
     },
     {
       name: t('health.hosp2name'),

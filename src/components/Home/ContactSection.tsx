@@ -67,10 +67,10 @@ const ContactSection = () => {
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
-                  <Label htmlFor="visaType">Visa Type Interest</Label>
+                  <Label htmlFor="visaType">{t('contact.form.visaType')}</Label>
                   <Select value={formData.visaType} onValueChange={handleSelectChange}>
                     <SelectTrigger className="mt-1">
-                      <SelectValue placeholder="Select visa type you're interested in" />
+                      <SelectValue placeholder={t('contact.form.selectVisa')} />
                     </SelectTrigger>
                     <SelectContent>
                       {visaTypes.map((visa) => (
