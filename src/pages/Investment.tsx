@@ -45,14 +45,14 @@ const Investment = () => {
   const investmentTypes = [
     {
       icon: TrendingUp,
-      title: 'Curated Investment Opportunities',
-      description: 'Government-approved private equity and venture capital funds. CMVM-regulated structures.',
-      benefits: ['No real estate maintenance', 'Professional fund management', 'Diversified portfolios', 'Early return distributions', 'Golden Visa pathway']
+      title: t('page.investment.curated'),
+      description: t('page.investment.curated.desc'),
+      benefits: [t('page.investment.curated.tag1'), t('page.investment.curated.tag2'), t('page.investment.curated.tag3'), t('page.investment.curated.tag4'), t('page.investment.curated.tag5')]
     },
     {
       icon: Building,
-      title: 'Real Estate Investment',
-      description: 'Golden Visa eligible properties across prime locations. Finance up to 70% with mortgage support.',
+      title: t('page.investment.estate'),
+      description: t('page.investment.esate.desc'),
       benefits: ['Residency qualification', 'Rental income potential', 'Capital appreciation', 'Off-market access', 'Full lifecycle support']
     },
     {
@@ -70,16 +70,16 @@ const Investment = () => {
         {/* Hero Section */}
         <SectionBanner
           title={t('page.investment.title')}
-          subtitle={"Discover lucrative investment opportunities in Portugal's thriving real estate market"}
+          subtitle={t('page.investment.subtitle')}
         />
 
         {/* Investment Types */}
         <section className="py-16 bg-background">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-foreground mb-4">Investment Options</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-4">{t('page.investment.option')}</h2>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Why fund-based Golden Visa investments? Audited, CMVM-regulated structures with diversification across tech, real estate, energy, and innovation sectors. Passive income and capital appreciation potential.
+                {t('page.investment.optiondesc')}
               </p>
             </div>
 

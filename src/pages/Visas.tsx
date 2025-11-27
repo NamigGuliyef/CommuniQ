@@ -89,7 +89,7 @@ const Visas = () => {
         {/* Hero Section */}
         <SectionBanner
           title={t('page.visas.title')}
-          subtitle={"Legal pathway to live in Portugal and the EU. Visa-free travel across the entire Schengen Area. Choose the route: income-based or investment-based."}
+          subtitle={t('page.visas.subtitle')}
         />
 
         {/* Visa Types */}
@@ -110,7 +110,7 @@ const Visas = () => {
                     </CardHeader>
                     <CardContent className="space-y-6">
                       <div>
-                        <h4 className="font-semibold text-foreground mb-3">Key Features</h4>
+                        <h4 className="font-semibold text-foreground mb-3">{t('visa.keyfeatures')}</h4>
                         <div className="space-y-2">
                           {visa.features.map((feature, i) => (
                             <div key={i} className="flex items-center gap-2">

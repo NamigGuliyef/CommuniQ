@@ -285,6 +285,7 @@ const translations = {
 
 
     "visa.d7": "D7 Viza (Passiv Gəlir Vizası)",
+    "visa.keyfeatures": "Əsas Xüsusiyyətlər:",
     "visa.d7forwho1":
       "Passiv gəlirə sahib şəxslər: icarə, pensiya, royalti, faiz gəlirləri;",
 
@@ -365,7 +366,28 @@ const translations = {
     // Pages
     "page.services.title": "Xidmətlərimiz",
     "page.visas.title": "Viza Növləri",
+
+    
+    "page.visas.subtitle":"Portuqaliyada və AB-də yaşamağın qanuni yolu. Bütün Şengen bölgəsində vizasız səyahət. Marşrutu seçin: gəlir əsaslı və ya investisiya əsaslı.",
     "page.investment.title": "İnvestisiya İmkanları",
+    "page.investment.option":"İnvestisiya Seçimləri",
+    "page.investment.optiondesc":"Niyə fond əsaslı Golden Visa investisiyaları? Texnologiya, daşınmaz əmlak, enerji və innovasiya sektorlarında diversifikasiyaya malik audit olunmuş, CMVM tərəfindən tənzimlənən strukturlar. Passiv gəlir və kapital artımı potensialı.",
+    "page.investment.curated":"Seçilmiş İnvestisiya İmkanları",
+    "page.investment.curated.desc":"Hökumət tərəfindən təsdiqlənmiş özəl kapital və risk kapitalı fondları. CMVM tərəfindən tənzimlənən strukturlar.",
+    "page.investment.curated.tag1":"Daşınmaz əmlaka texniki xidmət göstərilmir",
+    "page.investment.curated.tag2":"Peşəkar fond idarəetməsi",
+    "page.investment.curated.tag3":"Şaxələndirilmiş portfellər",
+    "page.investment.curated.tag4":"Erkən qaytarılma paylanmaları",
+    "page.investment.curated.tag5":"Qızıl Viza yolu",
+
+
+
+    "page.investment.estate":"Daşınmaz Əmlak İnvestisiyası",
+    "page.investment.estate.desc":"Ən yaxşı yerlərdə Golden Visa uyğun əmlaklar. İpoteka dəstəyi ilə 70%-ə qədər maliyyələşdirmə.",
+    
+    
+    
+    "page.investment.subtitle":"Portuqaliyanın inkişaf edən daşınmaz əmlak bazarında gəlirli investisiya imkanlarını kəşf edin",
     "page.education.title": "Təhsil və Səhiyyə",
     "page.contact.title": "Bizimlə Əlaqə Saxlayın",
 
