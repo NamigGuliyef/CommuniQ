@@ -17,16 +17,16 @@ Atlantic Ocean blues, Mediterranean warmth, Portuguese tile aesthetics
     --primary: 152 100% 15%;
     --primary-foreground: 0 0% 100%;
     --primary-hover: 152 100% 12%;
-    
+
     /* Golden Portugal - Accent Colors */
     --portugal-gold: 45 95% 55%;
     --portugal-gold-foreground: 214 31% 12%;
-    
+
     /* Portugal Flag Colors */
     --ocean-blue: 152 100% 15%;
     --ocean-light: 152 60% 35%;
     --ocean-deep: 152 100% 10%;
-    
+
     /* Portuguese Tiles & Architecture */
     --tile-cream: 42 45% 96%;
     --tile-terracotta: 18 75% 60%;
@@ -146,4 +146,24 @@ Atlantic Ocean blues, Mediterranean warmth, Portuguese tile aesthetics
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.min-6-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* Optional: add ellipsis */
+}
+
+.min-2-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* Optional: add ellipsis */
 }

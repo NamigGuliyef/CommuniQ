@@ -1077,22 +1077,8 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
         <ServiceModal
           isOpen={modalId === 0 || Boolean(modalId)}
           onClose={() => setModalId(null)}
-          universities={[
-            {
-              title: "University of Lisbon",
-              description: "Ranked #262 in QS 2025",
-            },
-            {
-              title: "NOVA University Lisbon",
-              description: "Featured in QS Top 50 Under 50",
-            },
-          ]}
-          universityImages={[
-            { src: universityLisbon, alt: "University of Lisbon" },
-            { src: universityNova, alt: "NOVA University" },
-          ]}
-          quote="One of the most welcoming societies for immigrants"
-          quoteSource="European Social Survey, 2022"
+          content={getDetailedContent(modalId)}
+          title={services[modalId || 0].title}
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -1102,9 +1088,8 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
             return (
               <Card
                 key={index}
-                className={`relative transition-all duration-500 ease-out border-0 bg-gradient-to-br from-card via-card to-card/90 shadow-lg cursor-pointer transform-gpu ${
-                  isExpanded ? "z-20" : "hover:shadow-xl hover:scale-[1.02]"
-                }`}
+                className={`relative transition-all duration-500 ease-out border-0 bg-gradient-to-br from-card via-card to-card/90 shadow-lg cursor-pointer transform-gpu ${isExpanded ? "z-20" : "hover:shadow-xl hover:scale-[1.02]"
+                  }`}
                 onMouseEnter={() => setExpandedCard(index)}
                 onMouseLeave={() => setExpandedCard(null)}
                 style={{ minHeight: "200px" }}
@@ -1114,16 +1099,20 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
                     <IconComponent className="w-7 h-7 text-white" />
                   </div>
                   <CardTitle
-                    className={`text-xl transition-colors duration-300 ${
-                      isExpanded ? "text-primary" : "text-foreground"
-                    }`}
+                    style={{
+                      height: 60
+                    }}
+                    className={`text-xl transition-colors min-2-lines duration-300 ${isExpanded ? "text-primary" : "text-foreground"
+                      }`}
                   >
                     {service.title}
                   </CardTitle>
                 </CardHeader>
 
-                <CardContent>
-                  <CardDescription className="text-muted-foreground">
+                <CardContent style={{
+                  height: 150
+                }}>
+                  <CardDescription className="text-muted-foreground min-6-lines">
                     {service.description}
                   </CardDescription>
                 </CardContent>
@@ -1138,11 +1127,10 @@ const ServicesSection = ({ cartStyle }: { cartStyle: 1 | 2 }) => {
                 )}
                 {cartStyle === 1 && (
                   <div
-                    className={`absolute inset-0 transition-all duration-500 ease-out overflow-y-auto rounded-xl bg-gradient-to-br from-tile-cream/95 to-background/95 p-6 ${
-                      isExpanded
-                        ? "opacity-100 translate-y-0"
-                        : "opacity-0 pointer-events-none translate-y-4"
-                    }`}
+                    className={`absolute inset-0 transition-all duration-500 ease-out overflow-y-auto rounded-xl bg-gradient-to-br from-tile-cream/95 to-background/95 p-6 ${isExpanded
+                      ? "opacity-100 translate-y-0"
+                      : "opacity-0 pointer-events-none translate-y-4"
+                      }`}
                   >
                     {getDetailedContent(index)}
                   </div>
