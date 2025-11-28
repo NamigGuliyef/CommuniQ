@@ -127,7 +127,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-white">{t('contact.office')}</h3>
-                    <p className="text-white/80">Baku, Azerbaijan</p>
+                    <p className="text-white/80">{t("contact.city")}</p>
                   </div>
                 </div>
               </CardContent>

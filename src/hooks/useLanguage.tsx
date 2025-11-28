@@ -427,10 +427,31 @@ const translations = {
     "page.contact.subtitle":"Portuqaliya səyahətinizə başlamağa hazırsınız? Ekspert komandamızla əlaqə saxlayın",
 
 
-
-
     "page.investment.subtitle":"Portuqaliyanın inkişaf edən daşınmaz əmlak bazarında gəlirli investisiya imkanlarını kəşf edin",
     "page.education.title": "Təhsil və Səhiyyə",
+    "page.education.subtitle":"Avropanın ən qonaqpərvər ölkələrindən birində dünya səviyyəli təhsil və tibbi xidmətlər təklif edən Portuqaliyanın beynəlxalq səviyyədə tanınmış universitetlərini və səhiyyə müəssisələrini kəşf edin.",
+    "page.education.statistic.uni":"Universitetlər",
+    "page.education.statistic.student":"Tələbələr",
+    "page.education.statistic.employment":"Məşğulluq dərəcəsi",
+    "page.education.statistic.health":"AB Səhiyyə",
+    "page.education.top.uni":"Ən Yaxşı Universitetlər",
+    "page.education.top.unidesc":"Portuqaliyanın dünya səviyyəli təhsil və tədqiqat imkanları təklif edən aparıcı müəssisələri",
+    "page.education1.name":"Lissabon Universiteti",
+    "page.education1.desc":"47.000-dən çox tələbəsi olan Portuqaliyanın ən böyük universiteti. 1911-ci ildən bəri tədqiqat və təhsil sahəsində mükəmməllik.",
+    "page.education2.name":"Porto Universiteti",
+    "page.education2.desc":"Mühəndislik və tibb proqramları ilə tanınan aparıcı dövlət universiteti. Güclü beynəlxalq tərəfdaşlıqlar.",
+    "page.education3.name":"NOVA Universiteti Lissabon",
+    "page.education3.desc":"İnnovativ proqramlara malik müasir universitet. Güclü biznes və iqtisadiyyat fakültələri.",
+    "page.education.learn":"Daha çox",
+
+
+    "page.education.journey":"Portuqaliyada təhsil səyahətinizə başlamağa hazırsınız?",
+    "page.educatiom.journeydesc":"Universitetə ​​qəbul, məktəbə qəbul və səhiyyə qeydiyyatı üçün fərdiləşdirilmiş təlimatlar alın",
+    "page.education.getstarted":"Bu gün başlayın",
+
+
+
+
     "page.contact.title": "Bizimlə Əlaqə Saxlayın",
 
     // Contact

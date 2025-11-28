@@ -29,37 +29,34 @@ const EducationRedesigned = () => {
 
   const universities = [
     {
-      name: 'University of Lisbon',
+      name: t("page.education1.name"),
       shortName: 'ULisboa',
-      description: "Portugal's largest university with over 47,000 students. Excellence in research and education since 1911.",
+      description: t("page.education1.desc"),
       ranking: '#1 in Portugal',
       icon: GraduationCap,
       image: universityLisbon,
-      specialties: ['Medicine', 'Engineering', 'Law', 'Sciences'],
       students: '47,000+',
       founded: 1911,
       color: 'from-blue-500 to-blue-700'
     },
     {
-      name: 'University of Porto',
+      name: t("page.education2.name"),
       shortName: 'U.Porto',
-      description: 'Leading public university known for engineering and medical programs. Strong international partnerships.',
+      description: t("page.education2.desc"),
       ranking: '#2 in Portugal',
       icon: Award,
       image: universityPorto,
-      specialties: ['Engineering', 'Medicine', 'Architecture', 'Economics'],
       students: '32,000+',
       founded: 1911,
       color: 'from-primary to-green-700'
     },
     {
-      name: 'NOVA University Lisbon',
+      name: t("page.education3.name"),
       shortName: 'NOVA',
-      description: 'Modern university with innovative programs. Strong business and economics faculties.',
+      description: t("page.education3.desc"),
       ranking: 'Top 3 in Portugal',
       icon: Star,
       image: universityNova,
-      specialties: ['Business', 'Economics', 'Technology', 'Social Sciences'],
       students: '20,000+',
       founded: 1973,
       color: 'from-purple-500 to-purple-700'
@@ -100,7 +97,7 @@ const EducationRedesigned = () => {
       <main className="pt-16">
         <SectionBanner
           title={t('education.title')}
-          subtitle="Discover Portugal's internationally recognized universities and healthcare facilities, offering world-class education and medical services in one of Europe's most welcoming countries."
+          subtitle={t("page.education.subtitle")}
         />
 
         {/* Statistics Section */}
@@ -109,22 +106,22 @@ const EducationRedesigned = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-primary mb-2">20+</div>
-                <div className="text-sm text-muted-foreground">Universities</div>
+                <div className="text-sm text-muted-foreground">{t("page.education.statistic.uni")}</div>
               </div>
 
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-primary mb-2">300k+</div>
-                <div className="text-sm text-muted-foreground">Students</div>
+                <div className="text-sm text-muted-foreground">{t("page.education.statistic.student")}</div>
               </div>
 
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-primary mb-2">95%</div>
-                <div className="text-sm text-muted-foreground">Employment Rate</div>
+                <div className="text-sm text-muted-foreground">{t("page.education.statistic.employment")}</div>
               </div>
 
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-primary mb-2">#3</div>
-                <div className="text-sm text-muted-foreground">EU Healthcare</div>
+                <div className="text-sm text-muted-foreground">{t("page.education.statistic.health")}</div>
               </div>
             </div>
           </div>
@@ -135,10 +132,10 @@ const EducationRedesigned = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-                Top Universities
+                {t('page.education.top.uni')}
               </h2>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Portugal's leading institutions offering world-class education and research opportunities
+                {t('page.education.top.unidesc')}
               </p>
             </div>
 
@@ -149,7 +146,7 @@ const EducationRedesigned = () => {
                 return (
                   <Card
                     key={index}
-                    className="group hover:shadow-2xl transition-all duration-500 overflow-hidden border-0 bg-gradient-to-br from-card to-card/80"
+                    className="group flex flex-col hover:shadow-2xl transition-all duration-500 overflow-hidden border-0 bg-gradient-to-br from-card to-card/80"
                   >
                     <div className="relative h-64 overflow-hidden">
                       <img
@@ -184,39 +181,31 @@ const EducationRedesigned = () => {
 
                           <div className="flex items-center gap-2 mt-2">
                             <Users className="w-4 h-4 text-muted-foreground" />
-                            <span className="text-sm text-muted-foreground">{university.students} students</span>
+                            <span className="text-sm text-muted-foreground">
+                              {university.students} {t("page.education.statistic.student")}
+                            </span>
                           </div>
                         </div>
                       </div>
                     </CardHeader>
 
-                    <CardContent className="space-y-4">
+                    {/* >>> ƏSAS DÜZƏLİŞ: CardContent FLEX-COL + MT-AUTO <<< */}
+                    <CardContent className="flex flex-col h-[150px]">
                       <CardDescription className="text-muted-foreground leading-relaxed">
                         {university.description}
                       </CardDescription>
 
-                      <div>
-                        <div className="text-sm font-semibold text-foreground mb-2">Top Specialties</div>
-
-                        <div className="flex flex-wrap gap-2">
-                          {university.specialties.map((specialty, idx) => (
-                            <Badge key={idx} variant="secondary" className="text-xs">
-                              {specialty}
-                            </Badge>
-                          ))}
-                        </div>
-                      </div>
-
                       <Button
                         onClick={() => setModalId(index)}
                         variant="outline"
-                        className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
+                        className="w-full mt-auto group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
                       >
                         <ExternalLink className="w-4 h-4 mr-2" />
-                        Learn More
+                        {t('page.education.learn')}
                       </Button>
                     </CardContent>
                   </Card>
+
                 );
               })}
             </div>
@@ -237,11 +226,11 @@ const EducationRedesigned = () => {
               <Trophy className="w-16 h-16 mx-auto mb-6 text-portugal-gold" />
 
               <h3 className="text-3xl md:text-4xl font-bold mb-4">
-                Ready to Start Your Education Journey in Portugal?
+                {t("page.education.journey")}
               </h3>
 
               <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-                Get personalized guidance for university applications, school enrollment, and healthcare registration
+                {t("page.educatiom.journeydesc")}
               </p>
 
               <Button
@@ -250,7 +239,8 @@ const EducationRedesigned = () => {
                 className="bg-portugal-gold hover:bg-portugal-gold/90 text-portugal-gold-foreground font-semibold px-8 py-6"
                 onClick={() => (window.location.href = '/contact')}
               >
-                Get Started Today
+                {t("page.education.getstarted")}
+
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
             </div>
