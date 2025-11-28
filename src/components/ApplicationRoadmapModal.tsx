@@ -15,161 +15,198 @@ const ApplicationRoadmapModal = ({ isOpen, onClose }: ApplicationRoadmapModalPro
   const { language } = useLanguage();
   const [currentStep, setCurrentStep] = useState(0);
 
-  const roadmapData = {
-    title: {
-      az: "Müraciət Xəritəsi",
-      en: "Application Roadmap",
-      ru: "Дорожная Карта Заявления"
+const roadmapData = {
+  title: {
+    az: "Müraciət Xəritəsi",
+    en: "Application Roadmap",
+    ru: "Дорожная Карта Заявления",
+    pt: "Roteiro de Candidatura"
+  },
+  navigation: {
+    next: {
+      az: "Növbəti",
+      en: "Next",
+      ru: "Далее",
+      pt: "Seguinte"
     },
-    navigation: {
-      next: {
-        az: "Növbəti",
-        en: "Next",
-        ru: "Далее"
+    previous: {
+      az: "Əvvəlki",
+      en: "Previous",
+      ru: "Назад",
+      pt: "Anterior"
+    },
+    close: {
+      az: "Bağla",
+      en: "Close",
+      ru: "Закрыть",
+      pt: "Fechar"
+    },
+    apply: {
+      az: "Müraciət Et",
+      en: "Apply Now",
+      ru: "Подать Заявку",
+      pt: "Candidatar-se"
+    },
+    step: {
+      az: "Addım",
+      en: "Step",
+      ru: "Этап",
+      pt: "Etapa"
+    },
+    of: {
+      az: "/",
+      en: " of ",
+      ru: " из ",
+      pt: " de "
+    }
+  },
+  stages: [
+    {
+      icon: CheckCircle,
+      phase: {
+        az: "I Mərhələ – Sənədlərin Hazırlanması",
+        en: "Stage I – Document Preparation",
+        ru: "Этап I – Подготовка Документов",
+        pt: "Etapa I – Preparação de Documentos"
       },
-      previous: {
-        az: "Əvvəlki",
-        en: "Previous",
-        ru: "Назад"
+      description: {
+        az: "Viza üçün ilkin sənədlərin toplanması və maliyyə əsaslı uyğunluğun yoxlanması:",
+        en: "Initial document collection and financial eligibility check:",
+        ru: "Сбор первичных документов для визы и проверка финансового соответствия:",
+        pt: "Recolha inicial de documentos e verificação da elegibilidade financeira:"
       },
-      close: {
-        az: "Bağla",
-        en: "Close",
-        ru: "Закрыть"
-      },
-      apply: {
-        az: "Müraciət Et",
-        en: "Apply Now",
-        ru: "Подать Заявку"
-      },
-      step: {
-        az: "Addım",
-        en: "Step",
-        ru: "Этап"
-      },
-      of: {
-        az: "/",
-        en: " of ",
-        ru: " из "
+      requirements: {
+        az: [
+          "Məhkumluq haqqında arayış (apostilli)",
+          "Passiv gəlir sübutları (icarə, bank depoziti, pensiya və s.)",
+          "Bank hesabında minimum 15,000 avro vəsaitin sübutu",
+          "Şengen zonasına uyğun tibbi sığorta (min. 30,000 avro əhatə)"
+        ],
+        en: [
+          "Criminal record certificate with apostille",
+          "Proof of passive income (rental, deposit, pension, etc.)",
+          "Bank statement confirming at least €15,000 available funds",
+          "Schengen-compliant health insurance (min. €30,000 coverage)"
+        ],
+        ru: [
+          "Справка о несудимости с апостилем",
+          "Подтверждение пассивного дохода (аренда, депозит, пенсия и т.д.)",
+          "Выписка из банка, подтверждающая наличие минимум €15,000",
+          "Медицинская страховка, соответствующая требованиям Шенгена (мин. €30,000 покрытие)"
+        ],
+        pt: [
+          "Certificado de registo criminal com apostila",
+          "Prova de rendimento passivo (arrendamento, depósito bancário, pensão, etc.)",
+          "Extrato bancário comprovativo de pelo menos €15.000 de fundos disponíveis",
+          "Seguro de saúde compatível com Schengen (mínimo €30.000 de cobertura)"
+        ]
       }
     },
-    stages: [
-      {
-        icon: CheckCircle,
-        phase: {
-          az: "I Mərhələ – Sənədlərin Hazırlanması",
-          en: "Stage I – Document Preparation",
-          ru: "Этап I – Подготовка Документов"
-        },
-        description: {
-          az: "Viza üçün ilkin sənədlərin toplanması və maliyyə əsaslı uyğunluğun yoxlanması:",
-          en: "Initial document collection and financial eligibility check:",
-          ru: "Сбор первичных документов для визы и проверка финансового соответствия:"
-        },
-        requirements: {
-          az: [
-            "Məhkumluq haqqında arayış (apostilli)",
-            "Passiv gəlir sübutları (icarə, bank depoziti, pensiya və s.)",
-            "Bank hesabında minimum 15,000 avro vəsaitin sübutu",
-            "Şengen zonasına uyğun tibbi sığorta (min. 30,000 avro əhatə)"
-          ],
-          en: [
-            "Criminal record certificate with apostille",
-            "Proof of passive income (rental, deposit, pension, etc.)",
-            "Bank statement confirming at least €15,000 available funds",
-            "Schengen-compliant health insurance (min. €30,000 coverage)"
-          ],
-          ru: [
-            "Справка о несудимости с апостилем",
-            "Подтверждение пассивного дохода (аренда, депозит, пенсия и т.д.)",
-            "Выписка из банка, подтверждающая наличие минимум €15,000",
-            "Медицинская страховка, соответствующая требованиям Шенгена (мин. €30,000 покрытие)"
-          ]
-        }
+    {
+      icon: Plane,
+      phase: {
+        az: "II Mərhələ – Səfərə Hazırlıq və Rəsmi Ərizə",
+        en: "Stage II – Travel Preparation and Visa Submission",
+        ru: "Этап II – Подготовка к Поездке и Подача Визы",
+        pt: "Etapa II – Preparação da Viagem e Submissão do Pedido de Visto"
       },
-      {
-        icon: Plane,
-        phase: {
-          az: "II Mərhələ – Səfərə Hazırlıq və Rəsmi Ərizə",
-          en: "Stage II – Travel Preparation and Visa Submission",
-          ru: "Этап II – Подготовка к Поездке и Подача Визы"
-        },
-        description: {
-          az: "Səfər planlaması və viza müraciətinin hüquqi baxımdan təqdim olunması:",
-          en: "Travel preparation and visa submission:",
-          ru: "Планирование поездки и юридическая подача заявления на визу:"
-        },
-        requirements: {
-          az: [
-            "Aviabiletin bir tərəfli və elastik bron edilməsi",
-            "Konsulluq və AIMA görüşlərinin təyinatı",
-            "Bütün sənədlərin tərcümə, notariat və tələblərə uyğun hazırlanması",
-            "CommuniQ tərəfindən tam hüquqi müşayiət"
-          ],
-          en: [
-            "Booking of one-way, flexible flight to Portugal",
-            "Appointment scheduling with embassy and AIMA",
-            "Full document preparation (translation, notary, compliance)",
-            "Legal accompaniment by CommuniQ at every step"
-          ],
-          ru: [
-            "Бронирование односторонних гибких авиабилетов в Португалию",
-            "Запись на встречи в посольстве и AIMA",
-            "Полная подготовка документов (перевод, нотариус, соответствие)",
-            "Юридическое сопровождение CommuniQ на каждом этапе"
-          ]
-        }
+      description: {
+        az: "Səfər planlaması və viza müraciətinin hüquqi baxımdan təqdim olunması:",
+        en: "Travel preparation and visa submission:",
+        ru: "Планирование поездки и юридическая подача заявления на визу:",
+        pt: "Preparação da viagem e submissão do pedido de visto:"
       },
-      {
-        icon: Home,
-        phase: {
-          az: "III Mərhələ – Portuqaliyada Qəbul və İnkişaf",
-          en: "Stage III – Integration and Development in Portugal",
-          ru: "Этап III – Интеграция и Развитие в Португалии"
-        },
-        description: {
-          az: "Portuqaliyaya uyğunlaşma və yaşayış prosesinin dəstəklənməsi:",
-          en: "Integration and ongoing support in Portugal:",
-          ru: "Интеграция и постоянная поддержка в Португалии:"
-        },
-        requirements: {
-          az: [
-            "Təhsil: məktəb və universitetə yerləşdirilmə",
-            "Əmlak: kirayə və ya alqı-satqı üzrə dəstək",
-            "Sığorta: fərdi və ailəlik tibbi sığortalar",
-            "Tibb: həkimlər və klinikalar üzrə yönləndirmə",
-            "Vergi və hüquq: yerli ekspertlərlə əməkdaşlıq",
-            "Bank: hesab açılması, KYC, təmsilçi dəyişimi",
-            "Ünvan: qeydiyyat ünvanının təqdim edilməsi",
-            "NIF və sosial sığorta nömrəsinin alınması",
-            "24/7 konsultasiya və sənəd dəstəyi"
-          ],
-          en: [
-            "Education: placement in private/public schools",
-            "Property: rental or purchase assistance",
-            "Insurance: health insurance via trusted brokers",
-            "Healthcare: access to doctors and clinics",
-            "Tax & Legal: connection to expert advisors",
-            "Banking: account opening, KYC, representation",
-            "Address: legal registered address for residency",
-            "NIF & Social Security Number issuance",
-            "24/7 support & continuous document help"
-          ],
-          ru: [
-            "Образование: устройство в частные/государственные школы",
-            "Недвижимость: помощь с арендой или покупкой",
-            "Страхование: медицинская страховка через доверенных брокеров",
-            "Здравоохранение: доступ к врачам и клиникам",
-            "Налоги и Право: связь с экспертными консультантами",
-            "Банковские услуги: открытие счета, KYC, представительство",
-            "Адрес: юридический зарегистрированный адрес для резидентства",
-            "Получение NIF и номера социального страхования",
-            "24/7 поддержка и постоянная помощь с документами"
-          ]
-        }
+      requirements: {
+        az: [
+          "Aviabiletin bir tərəfli və elastik bron edilməsi",
+          "Konsulluq və AIMA görüşlərinin təyinatı",
+          "Bütün sənədlərin tərcümə, notariat və tələblərə uyğun hazırlanması",
+          "CommuniQ tərəfindən tam hüquqi müşayiət"
+        ],
+        en: [
+          "Booking of one-way, flexible flight to Portugal",
+          "Appointment scheduling with embassy and AIMA",
+          "Full document preparation (translation, notary, compliance)",
+          "Legal accompaniment by CommuniQ at every step"
+        ],
+        ru: [
+          "Бронирование односторонних гибких авиабилетов в Португалию",
+          "Запись на встречи в посольстве и AIMA",
+          "Полная подготовка документов (перевод, нотариус, соответствие)",
+          "Юридическое сопровождение CommuniQ на каждом этапе"
+        ],
+        pt: [
+          "Reserva de voo só de ida e flexível para Portugal",
+          "Agendamento de marcações no consulado e na AIMA",
+          "Preparação completa de documentos (tradução, notário, conformidade)",
+          "Acompanhamento jurídico completo pela CommuniQ em todas as etapas"
+        ]
       }
-    ]
-  };
+    },
+    {
+      icon: Home,
+      phase: {
+        az: "III Mərhələ – Portuqaliyada Qəbul və İnkişaf",
+        en: "Stage III – Integration and Development in Portugal",
+        ru: "Этап III – Интеграция и Развитие в Португалии",
+        pt: "Etapa III – Integração e Desenvolvimento em Portugal"
+      },
+      description: {
+        az: "Portuqaliyaya uyğunlaşma və yaşayış prosesinin dəstəklənməsi:",
+        en: "Integration and ongoing support in Portugal:",
+        ru: "Интеграция и постоянная поддержка в Португалии:",
+        pt: "Integração e acompanhamento contínuo em Portugal:"
+      },
+      requirements: {
+        az: [
+          "Təhsil: məktəb və universitetə yerləşdirilmə",
+          "Əmlak: kirayə və ya alqı-satqı üzrə dəstək",
+          "Sığorta: fərdi və ailəlik tibbi sığortalar",
+          "Tibb: həkimlər və klinikalar üzrə yönləndirmə",
+          "Vergi və hüquq: yerli ekspertlərlə əməkdaşlıq",
+          "Bank: hesab açılması, KYC, təmsilçi dəyişimi",
+          "Ünvan: qeydiyyat ünvanının təqdim edilməsi",
+          "NIF və sosial sığorta nömrəsinin alınması",
+          "24/7 konsultasiya və sənəd dəstəyi"
+        ],
+        en: [
+          "Education: placement in private/public schools",
+          "Property: rental or purchase assistance",
+          "Insurance: health insurance via trusted brokers",
+          "Healthcare: access to doctors and clinics",
+          "Tax & Legal: connection to expert advisors",
+          "Banking: account opening, KYC, representation",
+          "Address: legal registered address for residency",
+          "NIF & Social Security Number issuance",
+          "24/7 support & continuous document help"
+        ],
+        ru: [
+          "Образование: устройство в частные/государственные школы",
+          "Недвижимость: помощь с арендой или покупкой",
+          "Страхование: медицинская страховка через доверенных брокеров",
+          "Здравоохранение: доступ к врачам и клиникам",
+          "Налоги и Право: связь с экспертными консультантами",
+          "Банковские услуги: открытие счета, KYC, представительство",
+          "Адрес: юридический зарегистрированный адрес для резидентства",
+          "Получение NIF и номера социального страхования",
+          "24/7 поддержка и постоянная помощь с документами"
+        ],
+        pt: [
+          "Educação: colocação em escolas públicas/privadas",
+          "Imobiliário: apoio em arrendamento ou compra",
+          "Seguros: seguro de saúde através de corretores credenciados",
+          "Saúde: acesso a médicos e clínicas",
+          "Fiscalidade e Jurídico: ligação a consultores especializados",
+          "Banca: abertura de conta, KYC, representação",
+          "Endereço: morada legal registada para residência",
+          "Obtenção do NIF e Número de Segurança Social",
+          "Apoio 24/7 e assistência contínua com documentação"
+        ]
+      }
+    }
+  ]
+};
+
 
   const totalSteps = roadmapData.stages.length;
   const currentStage = roadmapData.stages[currentStep];
