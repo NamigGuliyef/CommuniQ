@@ -345,11 +345,26 @@ const translations = {
     "contact.title": "Əlaqə",
     "contact.subtitle": "Sizin Portuqaliya səyahətinizə başlamağa hazırıq",
     "contact.form.title": "Mesaj Göndərin",
+    "contact.form.desc":"Aşağıdakı formanı doldurun və 24 saat ərzində sizinlə əlaqə saxlayacağıq",
     "contact.form.visaType": "Viza Növü",
     "contact.form.selectVisa": "Maraqlandığınız viza növünü seçin",
     "contact.form.send": "Göndər",
-    "contact.phone": "Telefon",
+   
     "contact.office": "Ofis",
+    "contact.email":"Email",
+    "contact.phone": "Telefon",
+    "contact.hours": "Ofis saatları",
+    "contact.monday":"Bazar ertəsi",
+    "contact.friday":"Cümə",
+    "contact.saturday":"Şənbə",
+    "contact.location": "Ofis yeri",
+    "contact.city":"Bakı, Azərbaycan",
+    "contact.footer":"Portuqaliyaya köçən müştərilərə xidmət göstərir",
+
+    "contact.ourlocation":"Ofisimizin Yeri",
+    "contact.ourvisit":"Bizi ziyarət edin və ya məsləhətləşmə təyin edin",
+    "contact.address":"Bakixanov qəsəbəsi, 105 Sülh küçəsi",
+    "contact.googlemaps":"Google xəritələrində açın",
 
     // Footer
     "footer.tagline": "Portuqaliya immiqrasiya və köçürmə xidmətləri üçün etibarlı tərəfdaşınız.",
@@ -381,12 +396,39 @@ const translations = {
     "page.investment.curated.tag5":"Qızıl Viza yolu",
 
 
-
     "page.investment.estate":"Daşınmaz Əmlak İnvestisiyası",
     "page.investment.estate.desc":"Ən yaxşı yerlərdə Golden Visa uyğun əmlaklar. İpoteka dəstəyi ilə 70%-ə qədər maliyyələşdirmə.",
-    
-    
-    
+    "page.investment.estate.tag1":"Rezidentura ixtisası",
+    "page.investment.estate.tag2":"Kirayə gəliri potensialı",
+    "page.investment.estate.tag3":"Kapitalın artması",
+    "page.investment.estate.tag4":"Bazardan kənar giriş",
+    "page.investment.estate.tag5":"Tam həyat dövrü dəstəyi",
+
+
+    "page.development.projects":"İnkişaf Layihələri",
+    "page.development.projects.desc":"İnkişaf etməkdə olan dəyər zonalarında yeni tikinti və təmir layihələri.",
+    "page.development.projects.tag1":"Tikintidən əvvəlki qiymət",
+    "page.development.projects.tag2":"Fərdiləşdirmə seçimləri",
+    "page.development.projects.tag3":"Müasir imkanlar",
+    "page.development.projects.tag4":"İnkişaf etməkdə olan bazarlar",
+    "page.development.projects.tag5":"İnkişaf tərəfdaşlıqları",
+
+
+    "page.investment.region.title":"Əsas İnvestisiya Bölgələri",
+    "page.investment.region.desc":"Portuqaliyanın ən çox axtarılan investisiya yerlərini araşdırın",
+    "page.investment.city.desc1":"Zəngin tarixə və müasir şəraitə malik paytaxt",
+    "page.investment.city.desc2":"UNESCO-nun Dünya İrsi Saytları ilə Mədəniyyət Mərkəzi",
+    "page.investment.city.desc3":"Qızılı çimərlikləri olan sahil cənnəti",
+    "page.investment.city.desc4":"Lissabon yaxınlığındakı zərif sahil şəhəri",
+    "page.investment.city.desc5":"Təbii gözəlliyə malik şərab bölgəsi",
+    "page.investment.city.price":"Qiymət Aralığı",
+
+
+    "page.contact.subtitle":"Portuqaliya səyahətinizə başlamağa hazırsınız? Ekspert komandamızla əlaqə saxlayın",
+
+
+
+
     "page.investment.subtitle":"Portuqaliyanın inkişaf edən daşınmaz əmlak bazarında gəlirli investisiya imkanlarını kəşf edin",
     "page.education.title": "Təhsil və Səhiyyə",
     "page.contact.title": "Bizimlə Əlaqə Saxlayın",

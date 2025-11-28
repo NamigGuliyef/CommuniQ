@@ -64,7 +64,7 @@ const Contact = () => {
       <main className="pt-16">
         <SectionBanner
           title={t('page.contact.title')}
-          subtitle="Ready to start your Portugal journey? Get in touch with our expert team"
+          subtitle={t('page.contact.subtitle')}
         />
         {/* Contact Section */}
         <section className="py-16 bg-background">
@@ -73,18 +73,18 @@ const Contact = () => {
               {/* Contact Form */}
               <Card className="shadow-lg">
                 <CardHeader>
-                  <CardTitle className="text-2xl text-foreground">Send us a Message</CardTitle>
+                  <CardTitle className="text-2xl text-foreground">{t('contact.form.title')}</CardTitle>
                   <CardDescription className="text-muted-foreground">
-                    Fill out the form below and we'll get back to you within 24 hours
+                    {t("contact.form.desc")}
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <div>
-                      <Label htmlFor="visaType">Visa Type Interest</Label>
+                      <Label htmlFor="visaType">{t("contact.form.visaType")}</Label>
                       <Select value={formData.visaType} onValueChange={handleSelectChange}>
                         <SelectTrigger className="mt-1">
-                          <SelectValue placeholder="Select visa type you're interested in" />
+                          <SelectValue placeholder={t("contact.form.selectVisa")} />
                         </SelectTrigger>
                         <SelectContent>
                           {visaTypes.map((visa) => (
@@ -97,7 +97,7 @@ const Contact = () => {
                     </div>
                     <Button type="submit" className="w-full bg-gradient-to-r from-primary to-ocean text-white">
                       <Send className="w-4 h-4 mr-2" />
-                      Send Message
+                      {t("contact.form.send")}
                     </Button>
                   </form>
                 </CardContent>
@@ -127,7 +127,7 @@ const Contact = () => {
                         <Phone className="w-5 h-5 text-white" />
                       </div>
                       <div>
-                        <h4 className="font-semibold text-foreground mb-1">Phone</h4>
+                        <h4 className="font-semibold text-foreground mb-1">{t('contact.phone')}</h4>
                         <a href="tel:+994772337272" className="text-muted-foreground hover:text-primary transition-colors">
                           +994 77 233 72 72
                         </a>
@@ -139,9 +139,9 @@ const Contact = () => {
                         <Clock className="w-5 h-5 text-white" />
                       </div>
                       <div>
-                        <h4 className="font-semibold text-foreground mb-1">Office Hours</h4>
-                        <p className="text-muted-foreground">Monday - Friday: 9:00 AM - 6:00 PM</p>
-                        <p className="text-muted-foreground">Saturday: 10:00 AM - 4:00 PM</p>
+                        <h4 className="font-semibold text-foreground mb-1">{t("contact.hours")}</h4>
+                        <p className="text-muted-foreground">{t("contact.monday")} - {t("contact.friday")}: 9:00 AM - 6:00 PM</p>
+                        <p className="text-muted-foreground">{t("contact.saturday")}: 10:00 AM - 4:00 PM</p>
                       </div>
                     </div>
 
@@ -150,9 +150,9 @@ const Contact = () => {
                         <MapPin className="w-5 h-5 text-white" />
                       </div>
                       <div>
-                        <h4 className="font-semibold text-foreground mb-1">Office Location</h4>
-                        <p className="text-muted-foreground">Baku, Azerbaijan</p>
-                        <p className="text-muted-foreground">Serving clients relocating to Portugal</p>
+                        <h4 className="font-semibold text-foreground mb-1">{t('contact.location')}</h4>
+                        <p className="text-muted-foreground">{t("contact.city")}</p>
+                        <p className="text-muted-foreground">{t("contact.footer")}</p>
                       </div>
                     </div>
                   </CardContent>
